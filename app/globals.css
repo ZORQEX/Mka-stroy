@@ -43,6 +43,17 @@ html {
   /* Offset anchor jumps for the fixed header (h-20 = 5rem) */
   scroll-padding-top: 6rem;
   -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Prevent iOS from auto-zooming when focusing form fields (needs >=16px) */
+input, select, textarea {
+  font-size: 16px;
+}
+
+/* Safe-area padding for notched iPhones */
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -67,37 +67,72 @@
     "water-supply": {
       "title": "Su Temini",
       "description": "Her ölçekteki tesisler için kapsamlı su temini sistemleri",
-      "features": ["Soğuk su temini", "Sıcak su temini", "Pompa istasyonları", "Su arıtma"]
+      "features": [
+        "Soğuk su temini",
+        "Sıcak su temini",
+        "Pompa istasyonları",
+        "Su arıtma"
+      ]
     },
     "sewage": {
       "title": "Kanalizasyon",
       "description": "Kanalizasyon sistemlerinin tasarımı ve montajı",
-      "features": ["İç kanalizasyon", "Dış kanalizasyon", "Yağmur suyu drenajı", "Arıtma tesisleri"]
+      "features": [
+        "İç kanalizasyon",
+        "Dış kanalizasyon",
+        "Yağmur suyu drenajı",
+        "Arıtma tesisleri"
+      ]
     },
     "hvac": {
       "title": "Havalandırma",
       "description": "Konfor ve üretim için iklimlendirme sistemleri",
-      "features": ["Taze hava", "Egzoz havalandırma", "Klima", "İklim kontrolü"]
+      "features": [
+        "Taze hava",
+        "Egzoz havalandırma",
+        "Klima",
+        "İklim kontrolü"
+      ]
     },
     "fire-protection": {
       "title": "Yangın Söndürme",
       "description": "Otomatik yangın güvenlik sistemleri",
-      "features": ["Sprinkler sistemleri", "Deluge sistemleri", "Gazlı söndürme", "Yangın alarmı"]
+      "features": [
+        "Sprinkler sistemleri",
+        "Deluge sistemleri",
+        "Gazlı söndürme",
+        "Yangın alarmı"
+      ]
     },
     "heating": {
       "title": "Isıtma",
       "description": "Anahtar teslimi verimli ısıtma sistemleri",
-      "features": ["Radyatör ısıtma", "Yerden ısıtma", "Isı merkezleri", "Kazan daireleri"]
+      "features": [
+        "Radyatör ısıtma",
+        "Yerden ısıtma",
+        "Isı merkezleri",
+        "Kazan daireleri"
+      ]
     },
     "electrical": {
       "title": "Elektrik",
       "description": "Kuvvetli ve zayıf akım elektrik sistemleri",
-      "features": ["Güç şebekeleri", "Aydınlatma", "Zayıf akım sistemleri", "Topraklama"]
+      "features": [
+        "Güç şebekeleri",
+        "Aydınlatma",
+        "Zayıf akım sistemleri",
+        "Topraklama"
+      ]
     },
     "boiler": {
       "title": "Kazan Daireleri",
       "description": "Kazan dairesi inşaatı ve modernizasyonu",
-      "features": ["Gaz kazanları", "Elektrikli kazanlar", "Modüler kazan daireleri", "Yenileme"]
+      "features": [
+        "Gaz kazanları",
+        "Elektrikli kazanlar",
+        "Modüler kazan daireleri",
+        "Yenileme"
+      ]
     },
     "drawer": {
       "title": "Çözümlerimiz",
@@ -129,7 +164,29 @@
     "tabs": {
       "completed": "Tamamlanan",
       "inProgress": "Devam Eden"
-    }
+    },
+    "count": "5 ülkede 54 tamamlanan proje",
+    "filterAll": "Tümü",
+    "categories": {
+      "airport": "Havalimanları",
+      "production": "Endüstriyel",
+      "residential": "Konut",
+      "commercial": "Ticari",
+      "office": "Ofis",
+      "retail": "Perakende",
+      "sport": "Spor",
+      "food": "Yeme-içme",
+      "entertainment": "Eğlence"
+    },
+    "modal": {
+      "client": "Müşteri",
+      "date": "Tarih",
+      "area": "Alan",
+      "city": "Şehir",
+      "works": "Yapılan işler",
+      "photos": "fotoğraf"
+    },
+    "viewAllProjects": "Tüm projeleri görüntüle"
   },
   "certificates": {
     "title": "Referanslar",
@@ -199,6 +256,21 @@
     },
     "schedule": {
       "label": "Çalışma Saatleri"
+    },
+    "form": {
+      "title": "Başvuru Bırak",
+      "name": "Ad",
+      "namePlaceholder": "Adınız",
+      "phone": "Telefon",
+      "phonePlaceholder": "+7 (___) ___-__-__",
+      "service": "Hizmet türü",
+      "servicePlaceholder": "Hizmet seçin",
+      "message": "Mesaj",
+      "messagePlaceholder": "Tesisinizi ve görevinizi açıklayın",
+      "submit": "Başvuru gönder",
+      "successTitle": "Başvuru gönderildi",
+      "successText": "Kısa süre içinde sizinle iletişime geçeceğiz.",
+      "sendAnother": "Bir tane daha gönder"
     }
   },
   "footer": {
@@ -242,5 +314,9 @@
       "title": "İletişim — MKA STROY",
       "description": "Projenizi görüşmek için MKA STROY ile iletişime geçin."
     }
+  },
+  "clients": {
+    "title": "Bize güveniyorlar",
+    "subtitle": "Önde gelen uluslararası şirketler ve tesisler için mühendislik sistemleri kurduk"
   }
 }

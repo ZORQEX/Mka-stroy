@@ -27,22 +27,22 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             <h4 className="font-semibold mb-4">{dict.footer.navigation}</h4>
             <ul className="space-y-2">
               <li>
-                <Link href={`/${locale}/services`} className="text-sm hover:text-accent transition-colors">
+                <Link href={`/${locale}/services`} className="inline-block py-1 text-sm hover:text-accent transition-colors">
                   {dict.nav.services}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/projects`} className="text-sm hover:text-accent transition-colors">
+                <Link href={`/${locale}/projects`} className="inline-block py-1 text-sm hover:text-accent transition-colors">
                   {dict.nav.projects}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/contacts`} className="text-sm hover:text-accent transition-colors">
+                <Link href={`/${locale}/contacts`} className="inline-block py-1 text-sm hover:text-accent transition-colors">
                   {dict.nav.contacts}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/privacy`} className="text-sm hover:text-accent transition-colors">
+                <Link href={`/${locale}/privacy`} className="inline-block py-1 text-sm hover:text-accent transition-colors">
                   {dict.privacy.title}
                 </Link>
               </li>

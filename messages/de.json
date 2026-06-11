@@ -67,37 +67,72 @@
     "water-supply": {
       "title": "Wasserversorgung",
       "description": "Umfassende Wasserversorgungssysteme für Objekte jeder Größenordnung",
-      "features": ["Kaltwasserversorgung", "Warmwasserversorgung", "Pumpstationen", "Wasseraufbereitung"]
+      "features": [
+        "Kaltwasserversorgung",
+        "Warmwasserversorgung",
+        "Pumpstationen",
+        "Wasseraufbereitung"
+      ]
     },
     "sewage": {
       "title": "Kanalisation",
       "description": "Planung und Installation von Kanalisationssystemen",
-      "features": ["Innenkanalisation", "Außenkanalisation", "Regenwasserableitung", "Kläranlagen"]
+      "features": [
+        "Innenkanalisation",
+        "Außenkanalisation",
+        "Regenwasserableitung",
+        "Kläranlagen"
+      ]
     },
     "hvac": {
       "title": "Lüftung",
       "description": "Klimasysteme für Komfort und Produktion",
-      "features": ["Zuluft", "Abluft", "Klimatisierung", "Klimakontrolle"]
+      "features": [
+        "Zuluft",
+        "Abluft",
+        "Klimatisierung",
+        "Klimakontrolle"
+      ]
     },
     "fire-protection": {
       "title": "Brandschutz",
       "description": "Automatische Brandschutzsysteme",
-      "features": ["Sprinklersysteme", "Sprühflutanlagen", "Gaslöschanlagen", "Brandmeldeanlage"]
+      "features": [
+        "Sprinklersysteme",
+        "Sprühflutanlagen",
+        "Gaslöschanlagen",
+        "Brandmeldeanlage"
+      ]
     },
     "heating": {
       "title": "Heizung",
       "description": "Effiziente Heizungssysteme schlüsselfertig",
-      "features": ["Radiatorheizung", "Fußbodenheizung", "Wärmepunkte", "Heizungsräume"]
+      "features": [
+        "Radiatorheizung",
+        "Fußbodenheizung",
+        "Wärmepunkte",
+        "Heizungsräume"
+      ]
     },
     "electrical": {
       "title": "Elektrik",
       "description": "Stark- und Schwachstrom-Elektrosysteme",
-      "features": ["Stromnetze", "Beleuchtung", "Schwachstromsysteme", "Erdung"]
+      "features": [
+        "Stromnetze",
+        "Beleuchtung",
+        "Schwachstromsysteme",
+        "Erdung"
+      ]
     },
     "boiler": {
       "title": "Heizungsräume",
       "description": "Bau und Modernisierung von Heizungsräumen",
-      "features": ["Gaskessel", "Elektrokessel", "Modulare Heizungsräume", "Renovierung"]
+      "features": [
+        "Gaskessel",
+        "Elektrokessel",
+        "Modulare Heizungsräume",
+        "Renovierung"
+      ]
     },
     "drawer": {
       "title": "Unsere Lösungen",
@@ -129,7 +164,29 @@
     "tabs": {
       "completed": "Abgeschlossen",
       "inProgress": "In Arbeit"
-    }
+    },
+    "count": "54 abgeschlossene Objekte in 5 Ländern",
+    "filterAll": "Alle",
+    "categories": {
+      "airport": "Flughäfen",
+      "production": "Industrie",
+      "residential": "Wohngebäude",
+      "commercial": "Handelsobjekte",
+      "office": "Büros",
+      "retail": "Einzelhandel",
+      "sport": "Sport",
+      "food": "Gastronomie",
+      "entertainment": "Unterhaltung"
+    },
+    "modal": {
+      "client": "Auftraggeber",
+      "date": "Datum",
+      "area": "Fläche",
+      "city": "Stadt",
+      "works": "Durchgeführte Arbeiten",
+      "photos": "Fotos"
+    },
+    "viewAllProjects": "Alle Projekte ansehen"
   },
   "certificates": {
     "title": "Referenzen",
@@ -199,6 +256,21 @@
     },
     "schedule": {
       "label": "Öffnungszeiten"
+    },
+    "form": {
+      "title": "Anfrage senden",
+      "name": "Name",
+      "namePlaceholder": "Ihr Name",
+      "phone": "Telefon",
+      "phonePlaceholder": "+7 (___) ___-__-__",
+      "service": "Leistungsart",
+      "servicePlaceholder": "Leistung auswählen",
+      "message": "Nachricht",
+      "messagePlaceholder": "Beschreiben Sie Ihr Objekt und Ihre Aufgabe",
+      "submit": "Anfrage senden",
+      "successTitle": "Anfrage gesendet",
+      "successText": "Wir melden uns in Kürze.",
+      "sendAnother": "Weitere senden"
     }
   },
   "footer": {
@@ -242,5 +314,9 @@
       "title": "Kontakt — MKA STROY",
       "description": "Kontaktieren Sie MKA STROY, um Ihr Projekt zu besprechen."
     }
+  },
+  "clients": {
+    "title": "Sie vertrauen uns",
+    "subtitle": "Wir haben Ingenieursysteme für führende internationale Unternehmen und Anlagen realisiert"
   }
 }

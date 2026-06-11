@@ -25,9 +25,9 @@ export function Clients({ locale, dict }: { locale: Locale; dict: Dictionary }) 
           viewport={{ once: true }}
           className="text-center mb-10"
         >
-          <h2 className="mb-3">Нам доверяют</h2>
+          <h2 className="mb-3">{(dict as any).clients?.title ?? 'Нам доверяют'}</h2>
           <p className="text-text-muted text-lg max-w-2xl mx-auto">
-            Мы реализовали инженерные системы для ведущих международных компаний и объектов
+            {(dict as any).clients?.subtitle ?? 'Мы реализовали инженерные системы для ведущих международных компаний и объектов'}
           </p>
         </motion.div>
 

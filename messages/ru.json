@@ -126,7 +126,29 @@
     "tabs": {
       "completed": "Завершённые",
       "inProgress": "В работе"
-    }
+    },
+    "count": "54 завершённых объекта в 5 странах",
+    "filterAll": "Все",
+    "categories": {
+      "airport": "Аэропорты",
+      "production": "Производство",
+      "residential": "Жилые",
+      "commercial": "Торговые",
+      "office": "Офисные",
+      "retail": "Ритейл",
+      "sport": "Спорт",
+      "food": "Общепит",
+      "entertainment": "Развлечения"
+    },
+    "modal": {
+      "client": "Клиент",
+      "date": "Дата",
+      "area": "Площадь",
+      "city": "Город",
+      "works": "Выполненные работы",
+      "photos": "фото"
+    },
+    "viewAllProjects": "Смотреть все проекты"
   },
   "certificates": {
     "title": "Рекомендации",
@@ -212,6 +234,21 @@
     },
     "schedule": {
       "label": "Режим работы"
+    },
+    "form": {
+      "title": "Оставить заявку",
+      "name": "Имя",
+      "namePlaceholder": "Ваше имя",
+      "phone": "Телефон",
+      "phonePlaceholder": "+7 (___) ___-__-__",
+      "service": "Тип услуги",
+      "servicePlaceholder": "Выберите услугу",
+      "message": "Сообщение",
+      "messagePlaceholder": "Опишите ваш проект или вопрос",
+      "submit": "Отправить заявку",
+      "successTitle": "Заявка отправлена",
+      "successText": "Мы свяжемся с вами в ближайшее время.",
+      "sendAnother": "Отправить ещё одну"
     }
   },
   "footer": {
@@ -255,5 +292,9 @@
       "title": "Контакты — MKA STROY",
       "description": "Свяжитесь с MKA STROY для обсуждения вашего проекта."
     }
+  },
+  "clients": {
+    "title": "Нам доверяют",
+    "subtitle": "Мы реализовали инженерные системы для ведущих международных компаний и объектов"
   }
 }

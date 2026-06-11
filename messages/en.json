@@ -67,37 +67,72 @@
     "water-supply": {
       "title": "Water Supply",
       "description": "Comprehensive water supply systems for facilities of any scale",
-      "features": ["Cold water supply", "Hot water supply", "Pump stations", "Water treatment"]
+      "features": [
+        "Cold water supply",
+        "Hot water supply",
+        "Pump stations",
+        "Water treatment"
+      ]
     },
     "sewage": {
       "title": "Sewerage",
       "description": "Design and installation of sewerage systems",
-      "features": ["Internal sewerage", "External sewerage", "Storm drainage", "Treatment facilities"]
+      "features": [
+        "Internal sewerage",
+        "External sewerage",
+        "Storm drainage",
+        "Treatment facilities"
+      ]
     },
     "hvac": {
       "title": "Ventilation",
       "description": "Climate systems for comfort and production",
-      "features": ["Supply ventilation", "Exhaust ventilation", "Air conditioning", "Climate control"]
+      "features": [
+        "Supply ventilation",
+        "Exhaust ventilation",
+        "Air conditioning",
+        "Climate control"
+      ]
     },
     "fire-protection": {
       "title": "Fire Protection",
       "description": "Automatic fire safety systems",
-      "features": ["Sprinkler systems", "Deluge systems", "Gas suppression", "Fire alarm"]
+      "features": [
+        "Sprinkler systems",
+        "Deluge systems",
+        "Gas suppression",
+        "Fire alarm"
+      ]
     },
     "heating": {
       "title": "Heating",
       "description": "Turnkey efficient heating systems",
-      "features": ["Radiator heating", "Underfloor heating", "Heat points", "Boiler rooms"]
+      "features": [
+        "Radiator heating",
+        "Underfloor heating",
+        "Heat points",
+        "Boiler rooms"
+      ]
     },
     "electrical": {
       "title": "Electrical",
       "description": "Power and low-current electrical systems",
-      "features": ["Power networks", "Lighting", "Low-current systems", "Grounding"]
+      "features": [
+        "Power networks",
+        "Lighting",
+        "Low-current systems",
+        "Grounding"
+      ]
     },
     "boiler": {
       "title": "Boiler Rooms",
       "description": "Construction and modernization of boiler rooms",
-      "features": ["Gas boilers", "Electric boilers", "Modular boiler rooms", "Renovation"]
+      "features": [
+        "Gas boilers",
+        "Electric boilers",
+        "Modular boiler rooms",
+        "Renovation"
+      ]
     },
     "drawer": {
       "title": "Our Solutions",
@@ -129,7 +164,29 @@
     "tabs": {
       "completed": "Completed",
       "inProgress": "In Progress"
-    }
+    },
+    "count": "54 completed projects in 5 countries",
+    "filterAll": "All",
+    "categories": {
+      "airport": "Airports",
+      "production": "Industrial",
+      "residential": "Residential",
+      "commercial": "Commercial",
+      "office": "Office",
+      "retail": "Retail",
+      "sport": "Sports",
+      "food": "Food & Dining",
+      "entertainment": "Entertainment"
+    },
+    "modal": {
+      "client": "Client",
+      "date": "Date",
+      "area": "Area",
+      "city": "City",
+      "works": "Work performed",
+      "photos": "photos"
+    },
+    "viewAllProjects": "View all projects"
   },
   "certificates": {
     "title": "References",
@@ -199,6 +256,21 @@
     },
     "schedule": {
       "label": "Working Hours"
+    },
+    "form": {
+      "title": "Send a Request",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "phone": "Phone",
+      "phonePlaceholder": "+7 (___) ___-__-__",
+      "service": "Service type",
+      "servicePlaceholder": "Select a service",
+      "message": "Message",
+      "messagePlaceholder": "Describe your facility and task",
+      "submit": "Send request",
+      "successTitle": "Request sent",
+      "successText": "We will contact you shortly.",
+      "sendAnother": "Send another"
     }
   },
   "footer": {
@@ -242,5 +314,9 @@
       "title": "Contact — MKA STROY",
       "description": "Contact MKA STROY to discuss your project."
     }
+  },
+  "clients": {
+    "title": "Trusted by",
+    "subtitle": "We have delivered engineering systems for leading international companies and facilities"
   }
 }

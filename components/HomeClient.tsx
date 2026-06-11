@@ -20,7 +20,7 @@ export function HomeClient({ locale, dict }: HomeClientProps) {
     <>
       <Hero dict={dict} locale={locale} />
       <Services dict={dict} locale={locale} />
-      <Projects preview />
+      <Projects preview dict={dict} />
       <Clients dict={dict} locale={locale} />
       <Process dict={dict} locale={locale} />
       <FAQ dict={dict} locale={locale} />

@@ -22,6 +22,14 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  // Lock body scroll while the mobile menu is open
+  useEffect(() => {
+    document.body.style.overflow = isOpen ? 'hidden' : ''
+    return () => {
+      document.body.style.overflow = ''
+    }
+  }, [isOpen])
+
   const navItems = [
     { href: `/${locale}`, label: dict.nav.home },
     { href: `/${locale}/about`, label: (dict.nav as any).about || dict.about.title },

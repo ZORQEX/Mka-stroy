@@ -27,7 +27,7 @@ export default async function ProjectsPage({
   return (
     <>
       <div className="pt-20">
-        <Projects />
+        <Projects dict={dict} />
       </div>
       <Process dict={dict} locale={params.locale} />
       <Contacts dict={dict} locale={params.locale} />

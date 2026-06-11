@@ -57,13 +57,13 @@ export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="flex flex-wrap gap-4"
+              className="flex flex-col sm:flex-row gap-4"
             >
-              <Link href={`/${locale}/projects`} className="btn btn-primary">
+              <Link href={`/${locale}/projects`} className="btn btn-primary w-full sm:w-auto min-h-[48px]">
                 {dict.hero.cta.projects}
                 <ArrowRight size={18} />
               </Link>
-              <Link href={`/${locale}#contacts`} className="btn btn-secondary">
+              <Link href={`/${locale}#contacts`} className="btn btn-secondary w-full sm:w-auto min-h-[48px]">
                 {dict.hero.cta.contact}
               </Link>
             </motion.div>

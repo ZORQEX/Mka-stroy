@@ -73,9 +73,9 @@ function FAQAccordion({
     >
       <button
         onClick={onToggle}
-        className="w-full flex items-start justify-between gap-4 p-6 text-left transition-colors hover:bg-bg/50"
+        className="w-full flex items-start justify-between gap-4 p-4 sm:p-5 min-h-[44px] text-left transition-colors hover:bg-bg/50"
       >
-        <span className="font-semibold text-lg pr-4">{item.question}</span>
+        <span className="font-semibold text-base sm:text-lg pr-4">{item.question}</span>
         <motion.div
           animate={{ rotate: isOpen ? 180 : 0 }}
           transition={{ duration: 0.3 }}
@@ -93,7 +93,7 @@ function FAQAccordion({
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3, ease: [0.4, 0, 0.2, 1] }}
           >
-            <div className="px-6 pb-6 opacity-80 leading-relaxed border-t border-border pt-4">
+            <div className="px-4 sm:px-5 pb-4 sm:pb-5 text-sm sm:text-base opacity-80 leading-relaxed border-t border-border pt-4">
               {item.answer}
             </div>
           </motion.div>
