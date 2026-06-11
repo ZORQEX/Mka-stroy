@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "certificates": "Certificates",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "badge": "Engineering & Construction Company",
+    "title": "TIM STROY",
+    "tagline": "World-Class Engineering Solutions",
+    "description": "Design and installation of engineering systems for industrial facilities, airports and residential complexes in Kazakhstan and CIS.",
+    "experience": "Over 10 years of successful partnership with international corporations. More than 50 major projects completed.",
+    "scroll": "Learn More",
+    "cta": {
+      "projects": "Our Projects",
+      "contact": "Contact Us"
+    },
+    "stats": {
+      "currentProjects": "Active",
+      "completed": "Completed",
+      "clients": "Partners"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Reliable partner in engineering construction",
+    "description": "TIM STROY is an engineering and construction company with extensive experience in Kazakhstan and CIS countries. We specialize in the design and installation of engineering systems for facilities of any scale.",
+    "experience": "Our clients include international corporations, airports, manufacturing facilities, and major residential complexes. Each project is executed by a team of highly qualified specialists using modern technologies.",
+    "page": {
+      "whyUs": "Why Choose Us",
+      "ourValues": "Our Values",
+      "valuesDescription": "Principles that guide our work",
+      "features": {
+        "experience": {
+          "title": "Years of Experience",
+          "description": "Over 10 years in engineering construction"
+        },
+        "team": {
+          "title": "Expert Team",
+          "description": "Highly qualified engineers and specialists"
+        },
+        "quality": {
+          "title": "Quality Standards",
+          "description": "Compliance with international standards"
+        },
+        "geography": {
+          "title": "Wide Geography",
+          "description": "Projects in Kazakhstan and CIS countries"
+        }
+      },
+      "values": {
+        "quality": "Quality and reliability in every project",
+        "innovation": "Innovation and modern technologies",
+        "partnership": "Long-term partnership with clients",
+        "responsibility": "Responsibility and meeting deadlines",
+        "safety": "Safety and compliance with standards"
+      }
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Comprehensive engineering solutions for your facility",
+    "viewAll": "All Services",
+    "water-supply": {
+      "title": "Water Supply",
+      "description": "Comprehensive water supply systems for facilities of any scale",
+      "features": ["Cold water supply", "Hot water supply", "Pump stations", "Water treatment"]
+    },
+    "sewage": {
+      "title": "Sewerage",
+      "description": "Design and installation of sewerage systems",
+      "features": ["Internal sewerage", "External sewerage", "Storm drainage", "Treatment facilities"]
+    },
+    "hvac": {
+      "title": "Ventilation",
+      "description": "Climate systems for comfort and production",
+      "features": ["Supply ventilation", "Exhaust ventilation", "Air conditioning", "Climate control"]
+    },
+    "fire-protection": {
+      "title": "Fire Protection",
+      "description": "Automatic fire safety systems",
+      "features": ["Sprinkler systems", "Deluge systems", "Gas suppression", "Fire alarm"]
+    },
+    "heating": {
+      "title": "Heating",
+      "description": "Turnkey efficient heating systems",
+      "features": ["Radiator heating", "Underfloor heating", "Heat points", "Boiler rooms"]
+    },
+    "electrical": {
+      "title": "Electrical",
+      "description": "Power and low-current electrical systems",
+      "features": ["Power networks", "Lighting", "Low-current systems", "Grounding"]
+    },
+    "boiler": {
+      "title": "Boiler Rooms",
+      "description": "Construction and modernization of boiler rooms",
+      "features": ["Gas boilers", "Electric boilers", "Modular boiler rooms", "Renovation"]
+    },
+    "drawer": {
+      "title": "Our Solutions",
+      "intro": "TIM STROY LLP offers a wide range of installation services for residential, industrial, and office buildings.",
+      "supply": "Our company also provides comprehensive supply of equipment for heating, water supply, sewerage, ventilation, and air conditioning systems directly from our partners — renowned manufacturers.",
+      "services": "TIM STROY LLP provides a full range of installation and commissioning services for internal and external engineering networks of buildings and entire industrial or residential complexes, adhering to national and international standards.",
+      "scope": "The company's activities cover all areas related to engineering networks of buildings and structures, including construction, major repairs, and reconstruction.",
+      "design": "Upon your request, we can develop design and working documentation.",
+      "quality": "TIM STROY LLP will ensure high-quality work execution within optimal timeframes and budget.",
+      "welcome": "We look forward to welcoming you among our clients and partners!",
+      "servicesTitle": "Service Areas",
+      "list": {
+        "coldHotWater": "Cold and hot water supply networks",
+        "electrical": "Power supply networks",
+        "heating": "Heat supply",
+        "plumbing": "Internal plumbing, heating, and sewerage systems",
+        "ventilation": "Ventilation and air conditioning",
+        "fireSuppression": "Automatic fire suppression",
+        "control": "Engineering systems control and management",
+        "signaling": "Alarm and notification systems"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Completed facilities in Kazakhstan and CIS",
+    "viewAll": "View All",
+    "loadMore": "Load More",
+    "tabs": {
+      "completed": "Completed",
+      "inProgress": "In Progress"
+    }
+  },
+  "certificates": {
+    "title": "References",
+    "subtitle": "Feedback and recommendation letters from our partners",
+    "recommendation": "Letter of Recommendation",
+    "certificate": "Certificate"
+  },
+  "process": {
+    "title": "Work Process",
+    "subtitle": "Transparent process from request to delivery",
+    "steps": {
+      "step1": {
+        "title": "Request",
+        "description": "Contact us to discuss your project"
+      },
+      "step2": {
+        "title": "Analysis",
+        "description": "We study the technical requirements and site"
+      },
+      "step3": {
+        "title": "Design",
+        "description": "We develop project documentation"
+      },
+      "step4": {
+        "title": "Implementation",
+        "description": "We perform installation work"
+      },
+      "step5": {
+        "title": "Delivery",
+        "description": "We hand over with documentation and warranty"
+      }
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Answers to common questions about partnership",
+    "items": {
+      "faq1": {
+        "question": "Which regions do you operate in?",
+        "answer": "We complete projects across Kazakhstan and CIS countries: Uzbekistan, Tajikistan, Kyrgyzstan."
+      },
+      "faq2": {
+        "question": "What types of facilities do you work with?",
+        "answer": "We specialize in industrial facilities, airports, shopping centers, and residential complexes."
+      },
+      "faq3": {
+        "question": "What warranties do you provide?",
+        "answer": "Warranty on all types of work according to the contract. Warranty and post-warranty service."
+      },
+      "faq4": {
+        "question": "How does the payment process work?",
+        "answer": "We work under contract with staged payments. Advance payment, interim payments, and final settlement after completion."
+      }
+    }
+  },
+  "contacts": {
+    "title": "Contact",
+    "subtitle": "Let's discuss your project",
+    "phone": {
+      "label": "Phone"
+    },
+    "email": {
+      "label": "Email"
+    },
+    "address": {
+      "label": "Address"
+    },
+    "schedule": {
+      "label": "Working Hours"
+    }
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "contacts": "Contacts",
+    "schedule": "Working Hours",
+    "copyright": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The requested page does not exist or has been moved.",
+    "backHome": "Back to Home"
+  },
+  "privacy": {
+    "title": "Privacy Policy"
+  },
+  "common": {
+    "readMore": "Read More",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "An error occurred"
+  },
+  "seo": {
+    "home": {
+      "title": "TIM STROY — Engineering & Construction Company | Kazakhstan",
+      "description": "TIM STROY — design and installation of engineering systems for industrial facilities, airports, residential complexes. Kazakhstan and CIS."
+    },
+    "services": {
+      "title": "Services — TIM STROY",
+      "description": "Engineering systems: water supply, sewerage, heating, ventilation, fire protection, electrical."
+    },
+    "projects": {
+      "title": "Projects — TIM STROY",
+      "description": "Completed TIM STROY projects. Major facilities in Kazakhstan and CIS countries."
+    },
+    "certificates": {
+      "title": "References — TIM STROY",
+      "description": "Feedback and recommendation letters from TIM STROY partners."
+    },
+    "contacts": {
+      "title": "Contact — TIM STROY",
+      "description": "Contact TIM STROY to discuss your project."
+    }
+  }
+}

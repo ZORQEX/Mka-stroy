@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "projects": "Projeler",
+    "certificates": "Sertifikalar",
+    "contacts": "İletişim"
+  },
+  "hero": {
+    "badge": "Mühendislik ve İnşaat Şirketi",
+    "title": "TIM STROY",
+    "tagline": "Dünya Standartlarında Mühendislik Çözümleri",
+    "description": "Kazakistan ve BDT ülkelerinde endüstriyel tesisler, havalimanları ve konut kompleksleri için mühendislik sistemlerinin tasarımı ve montajı.",
+    "experience": "Uluslararası şirketlerle 10 yılı aşkın başarılı iş birliği. 50'den fazla büyük proje tamamlandı.",
+    "scroll": "Daha Fazla",
+    "cta": {
+      "projects": "Projelerimiz",
+      "contact": "İletişim"
+    },
+    "stats": {
+      "currentProjects": "Aktif",
+      "completed": "Tamamlanan",
+      "clients": "Ortak"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "Mühendislik inşaatında güvenilir ortak",
+    "description": "TIM STROY, Kazakistan ve BDT ülkelerinde uzun yıllara dayanan deneyime sahip bir mühendislik ve inşaat şirketidir. Her ölçekteki tesisler için mühendislik sistemlerinin tasarımı ve montajında uzmanlaşmış bulunmaktayız.",
+    "experience": "Müşterilerimiz arasında uluslararası şirketler, havalimanları, üretim tesisleri ve büyük konut kompleksleri yer almaktadır. Her proje, modern teknolojiler kullanılarak uzman bir ekip tarafından gerçekleştirilmektedir.",
+    "page": {
+      "whyUs": "Neden Bizi Seçmelisiniz",
+      "ourValues": "Değerlerimiz",
+      "valuesDescription": "Çalışmamıza rehberlik eden ilkeler",
+      "features": {
+        "experience": {
+          "title": "Deneyim Yılları",
+          "description": "Mühendislik inşaatında 10 yılı aşkın tecrübe"
+        },
+        "team": {
+          "title": "Uzman Ekip",
+          "description": "Yüksek nitelikli mühendisler ve uzmanlar"
+        },
+        "quality": {
+          "title": "Kalite Standartları",
+          "description": "Uluslararası standartlara uygunluk"
+        },
+        "geography": {
+          "title": "Geniş Coğrafya",
+          "description": "Kazakistan ve BDT ülkelerinde projeler"
+        }
+      },
+      "values": {
+        "quality": "Her projede kalite ve güvenilirlik",
+        "innovation": "Yenilik ve modern teknolojiler",
+        "partnership": "Müşterilerle uzun vadeli ortaklık",
+        "responsibility": "Sorumluluk ve teslim tarihlerine uyum",
+        "safety": "Güvenlik ve standartlara uygunluk"
+      }
+    }
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Tesisiniz için kapsamlı mühendislik çözümleri",
+    "viewAll": "Tüm Hizmetler",
+    "water-supply": {
+      "title": "Su Temini",
+      "description": "Her ölçekteki tesisler için kapsamlı su temini sistemleri",
+      "features": ["Soğuk su temini", "Sıcak su temini", "Pompa istasyonları", "Su arıtma"]
+    },
+    "sewage": {
+      "title": "Kanalizasyon",
+      "description": "Kanalizasyon sistemlerinin tasarımı ve montajı",
+      "features": ["İç kanalizasyon", "Dış kanalizasyon", "Yağmur suyu drenajı", "Arıtma tesisleri"]
+    },
+    "hvac": {
+      "title": "Havalandırma",
+      "description": "Konfor ve üretim için iklimlendirme sistemleri",
+      "features": ["Taze hava", "Egzoz havalandırma", "Klima", "İklim kontrolü"]
+    },
+    "fire-protection": {
+      "title": "Yangın Söndürme",
+      "description": "Otomatik yangın güvenlik sistemleri",
+      "features": ["Sprinkler sistemleri", "Deluge sistemleri", "Gazlı söndürme", "Yangın alarmı"]
+    },
+    "heating": {
+      "title": "Isıtma",
+      "description": "Anahtar teslimi verimli ısıtma sistemleri",
+      "features": ["Radyatör ısıtma", "Yerden ısıtma", "Isı merkezleri", "Kazan daireleri"]
+    },
+    "electrical": {
+      "title": "Elektrik",
+      "description": "Kuvvetli ve zayıf akım elektrik sistemleri",
+      "features": ["Güç şebekeleri", "Aydınlatma", "Zayıf akım sistemleri", "Topraklama"]
+    },
+    "boiler": {
+      "title": "Kazan Daireleri",
+      "description": "Kazan dairesi inşaatı ve modernizasyonu",
+      "features": ["Gaz kazanları", "Elektrikli kazanlar", "Modüler kazan daireleri", "Yenileme"]
+    },
+    "drawer": {
+      "title": "Çözümlerimiz",
+      "intro": "TIM STROY LLP, konut, endüstriyel ve ofis binaları için geniş bir montaj hizmetleri yelpazesi sunmaktadır.",
+      "supply": "Şirketimiz ayrıca ortaklarımız olan tanınmış üreticilerden ısıtma, su temini, kanalizasyon, havalandırma ve iklimlendirme sistemleri için kapsamlı ekipman tedariki yapmaktadır.",
+      "services": "TIM STROY LLP, ulusal ve uluslararası standartlara uygun olarak binaların ve tüm endüstriyel veya konut komplekslerinin iç ve dış mühendislik ağlarının montaj ve devreye alma hizmetlerinin tamamını sunmaktadır.",
+      "scope": "Şirketin faaliyet alanı, inşaat, büyük onarımlar ve yeniden yapılanma dahil olmak üzere bina ve yapıların mühendislik ağlarıyla ilgili tüm alanları kapsamaktadır.",
+      "design": "Talebiniz üzerine proje ve çalışma belgelerini geliştirebiliriz.",
+      "quality": "TIM STROY LLP, optimum süre ve bütçe dahilinde yüksek kaliteli iş yürütmeyi garanti eder.",
+      "welcome": "Sizi müşterilerimiz ve ortaklarımız arasında görmekten mutluluk duyarız!",
+      "servicesTitle": "Hizmet Alanları",
+      "list": {
+        "coldHotWater": "Soğuk ve sıcak su temini şebekeleri",
+        "electrical": "Elektrik besleme şebekeleri",
+        "heating": "Isı temini",
+        "plumbing": "İç tesisat, ısıtma ve kanalizasyon sistemleri",
+        "ventilation": "Havalandırma ve iklimlendirme",
+        "fireSuppression": "Otomatik yangın söndürme",
+        "control": "Mühendislik sistemleri kontrol ve yönetimi",
+        "signaling": "Alarm ve uyarı sistemleri"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projeler",
+    "subtitle": "Kazakistan ve BDT'de tamamlanan projeler",
+    "viewAll": "Tümünü Gör",
+    "loadMore": "Daha Fazla Göster",
+    "tabs": {
+      "completed": "Tamamlanan",
+      "inProgress": "Devam Eden"
+    }
+  },
+  "certificates": {
+    "title": "Referanslar",
+    "subtitle": "Ortaklarımızdan geri bildirimler ve referans mektupları",
+    "recommendation": "Referans Mektubu",
+    "certificate": "Sertifika"
+  },
+  "process": {
+    "title": "Çalışma Süreci",
+    "subtitle": "Başvurudan teslimata şeffaf süreç",
+    "steps": {
+      "step1": {
+        "title": "Başvuru",
+        "description": "Projenizi görüşmek için bizimle iletişime geçin"
+      },
+      "step2": {
+        "title": "Analiz",
+        "description": "Teknik gereksinimleri ve sahayı inceliyoruz"
+      },
+      "step3": {
+        "title": "Tasarım",
+        "description": "Proje dokümantasyonunu hazırlıyoruz"
+      },
+      "step4": {
+        "title": "Uygulama",
+        "description": "Montaj işlerini gerçekleştiriyoruz"
+      },
+      "step5": {
+        "title": "Teslimat",
+        "description": "Belgeler ve garanti ile teslim ediyoruz"
+      }
+    }
+  },
+  "faq": {
+    "title": "SSS",
+    "subtitle": "İş birliği hakkında sık sorulan sorular",
+    "items": {
+      "faq1": {
+        "question": "Hangi bölgelerde faaliyet gösteriyorsunuz?",
+        "answer": "Kazakistan ve BDT ülkelerinde projeler gerçekleştiriyoruz: Özbekistan, Tacikistan, Kırgızistan."
+      },
+      "faq2": {
+        "question": "Ne tür tesislerle çalışıyorsunuz?",
+        "answer": "Endüstriyel tesisler, havalimanları, alışveriş merkezleri ve konut komplekslerinde uzmanlaşıyoruz."
+      },
+      "faq3": {
+        "question": "Hangi garantileri sağlıyorsunuz?",
+        "answer": "Sözleşmeye göre tüm iş türlerinde garanti. Garanti ve garanti sonrası servis."
+      },
+      "faq4": {
+        "question": "Ödeme nasıl gerçekleşiyor?",
+        "answer": "Aşamalı ödemelerle sözleşmeli çalışıyoruz. Avans, ara ödemeler ve tamamlandıktan sonra nihai hesaplaşma."
+      }
+    }
+  },
+  "contacts": {
+    "title": "İletişim",
+    "subtitle": "Projenizi görüşelim",
+    "phone": {
+      "label": "Telefon"
+    },
+    "email": {
+      "label": "E-posta"
+    },
+    "address": {
+      "label": "Adres"
+    },
+    "schedule": {
+      "label": "Çalışma Saatleri"
+    }
+  },
+  "footer": {
+    "navigation": "Navigasyon",
+    "contacts": "İletişim",
+    "schedule": "Çalışma Saatleri",
+    "copyright": "Tüm hakları saklıdır."
+  },
+  "notFound": {
+    "title": "Sayfa Bulunamadı",
+    "description": "İstenen sayfa mevcut değil veya taşınmış.",
+    "backHome": "Ana Sayfaya Dön"
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası"
+  },
+  "common": {
+    "readMore": "Devamını Oku",
+    "close": "Kapat",
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu"
+  },
+  "seo": {
+    "home": {
+      "title": "TIM STROY — Mühendislik ve İnşaat Şirketi | Kazakistan",
+      "description": "TIM STROY — endüstriyel tesisler, havalimanları ve konut kompleksleri için mühendislik sistemleri tasarımı ve montajı. Kazakistan ve BDT."
+    },
+    "services": {
+      "title": "Hizmetler — TIM STROY",
+      "description": "Mühendislik sistemleri: su temini, kanalizasyon, ısıtma, havalandırma, yangın söndürme, elektrik."
+    },
+    "projects": {
+      "title": "Projeler — TIM STROY",
+      "description": "TIM STROY tamamlanmış projeleri. Kazakistan ve BDT ülkelerindeki büyük projeler."
+    },
+    "certificates": {
+      "title": "Referanslar — TIM STROY",
+      "description": "TIM STROY ortaklarından geri bildirimler ve referans mektupları."
+    },
+    "contacts": {
+      "title": "İletişim — TIM STROY",
+      "description": "Projenizi görüşmek için TIM STROY ile iletişime geçin."
+    }
+  }
+}

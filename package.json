@@ -1,0 +1,45 @@
+{
+<<<<<<< HEAD
+  "name": "tim_stroy",
+=======
+  "name": "tim-stroy-website",
+>>>>>>> 1e86fa4 (update: projects + geo links + ui changes)
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+<<<<<<< HEAD
+    "export": "next export",
+    "pages:build": "npx @cloudflare/next-on-pages"
+=======
+    "export": "next build"
+>>>>>>> 1e86fa4 (update: projects + geo links + ui changes)
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.96.0",
+    "@react-three/fiber": "^8.15.0",
+    "framer-motion": "^11.0.0",
+    "gsap": "^3.12.0",
+    "lucide-react": "^0.344.0",
+    "next": "^14.3.0",
+    "eslint-config-next": "^14.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/three": "^0.160.0",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "^14.2.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5"
+  }
+}

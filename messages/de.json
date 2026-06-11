@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "projects": "Projekte",
+    "certificates": "Zertifikate",
+    "contacts": "Kontakt"
+  },
+  "hero": {
+    "badge": "Ingenieur- und Bauunternehmen",
+    "title": "TIM STROY",
+    "tagline": "Ingenieurlösungen auf Weltniveau",
+    "description": "Planung und Installation von technischen Systemen für Industrieanlagen, Flughäfen und Wohnkomplexe in Kasachstan und der GUS.",
+    "experience": "Über 10 Jahre erfolgreiche Partnerschaft mit internationalen Konzernen. Mehr als 50 Großprojekte abgeschlossen.",
+    "scroll": "Mehr erfahren",
+    "cta": {
+      "projects": "Unsere Projekte",
+      "contact": "Kontaktieren Sie uns"
+    },
+    "stats": {
+      "currentProjects": "Aktiv",
+      "completed": "Abgeschlossen",
+      "clients": "Partner"
+    }
+  },
+  "about": {
+    "title": "Über uns",
+    "subtitle": "Zuverlässiger Partner im Ingenieurwesen",
+    "description": "TIM STROY ist ein Ingenieur- und Bauunternehmen mit umfangreicher Erfahrung in Kasachstan und GUS-Ländern. Wir spezialisieren uns auf die Planung und Installation von technischen Systemen für Objekte jeder Größenordnung.",
+    "experience": "Zu unseren Kunden gehören internationale Konzerne, Flughäfen, Produktionsanlagen und große Wohnkomplexe. Jedes Projekt wird von einem Team hochqualifizierter Spezialisten mit modernsten Technologien durchgeführt.",
+    "page": {
+      "whyUs": "Warum uns wählen",
+      "ourValues": "Unsere Werte",
+      "valuesDescription": "Prinzipien, die unsere Arbeit leiten",
+      "features": {
+        "experience": {
+          "title": "Jahrelange Erfahrung",
+          "description": "Über 10 Jahre im Ingenieurwesen"
+        },
+        "team": {
+          "title": "Expertenteam",
+          "description": "Hochqualifizierte Ingenieure und Spezialisten"
+        },
+        "quality": {
+          "title": "Qualitätsstandards",
+          "description": "Einhaltung internationaler Standards"
+        },
+        "geography": {
+          "title": "Breite Geographie",
+          "description": "Projekte in Kasachstan und GUS-Ländern"
+        }
+      },
+      "values": {
+        "quality": "Qualität und Zuverlässigkeit in jedem Projekt",
+        "innovation": "Innovation und moderne Technologien",
+        "partnership": "Langfristige Partnerschaft mit Kunden",
+        "responsibility": "Verantwortung und Termineinhaltung",
+        "safety": "Sicherheit und Standardkonformität"
+      }
+    }
+  },
+  "services": {
+    "title": "Dienstleistungen",
+    "subtitle": "Umfassende Ingenieurlösungen für Ihr Objekt",
+    "viewAll": "Alle Dienstleistungen",
+    "water-supply": {
+      "title": "Wasserversorgung",
+      "description": "Umfassende Wasserversorgungssysteme für Objekte jeder Größenordnung",
+      "features": ["Kaltwasserversorgung", "Warmwasserversorgung", "Pumpstationen", "Wasseraufbereitung"]
+    },
+    "sewage": {
+      "title": "Kanalisation",
+      "description": "Planung und Installation von Kanalisationssystemen",
+      "features": ["Innenkanalisation", "Außenkanalisation", "Regenwasserableitung", "Kläranlagen"]
+    },
+    "hvac": {
+      "title": "Lüftung",
+      "description": "Klimasysteme für Komfort und Produktion",
+      "features": ["Zuluft", "Abluft", "Klimatisierung", "Klimakontrolle"]
+    },
+    "fire-protection": {
+      "title": "Brandschutz",
+      "description": "Automatische Brandschutzsysteme",
+      "features": ["Sprinklersysteme", "Sprühflutanlagen", "Gaslöschanlagen", "Brandmeldeanlage"]
+    },
+    "heating": {
+      "title": "Heizung",
+      "description": "Effiziente Heizungssysteme schlüsselfertig",
+      "features": ["Radiatorheizung", "Fußbodenheizung", "Wärmepunkte", "Heizungsräume"]
+    },
+    "electrical": {
+      "title": "Elektrik",
+      "description": "Stark- und Schwachstrom-Elektrosysteme",
+      "features": ["Stromnetze", "Beleuchtung", "Schwachstromsysteme", "Erdung"]
+    },
+    "boiler": {
+      "title": "Heizungsräume",
+      "description": "Bau und Modernisierung von Heizungsräumen",
+      "features": ["Gaskessel", "Elektrokessel", "Modulare Heizungsräume", "Renovierung"]
+    },
+    "drawer": {
+      "title": "Unsere Lösungen",
+      "intro": "TIM STROY LLP bietet ein breites Spektrum an Installationsdienstleistungen für Wohn-, Industrie- und Bürogebäude.",
+      "supply": "Unser Unternehmen liefert auch umfassende Ausrüstung für Heizungs-, Wasserversorgungs-, Abwasser-, Lüftungs- und Klimaanlagen direkt von unseren Partnern — renommierten Herstellern.",
+      "services": "TIM STROY LLP bietet das gesamte Spektrum an Montage- und Inbetriebnahmedienstleistungen für interne und externe Versorgungsnetze von Gebäuden und kompletten Industrie- oder Wohnkomplexen gemäß nationalen und internationalen Standards.",
+      "scope": "Die Tätigkeit des Unternehmens umfasst alle Bereiche im Zusammenhang mit Versorgungsnetzen von Gebäuden und Bauwerken, einschließlich Neubau, Sanierung und Umbau.",
+      "design": "Auf Anfrage entwickeln wir für Sie Planungs- und Arbeitsunterlagen.",
+      "quality": "TIM STROY LLP gewährleistet eine qualitativ hochwertige Arbeitsausführung in optimalen Zeiträumen und im Rahmen des vereinbarten Budgets.",
+      "welcome": "Wir freuen uns darauf, Sie zu unseren Kunden und Partnern zählen zu dürfen!",
+      "servicesTitle": "Arbeitsbereiche",
+      "list": {
+        "coldHotWater": "Kalt- und Warmwasserversorgungsnetze",
+        "electrical": "Stromversorgungsnetze",
+        "heating": "Wärmeversorgung",
+        "plumbing": "Interne Sanitär-, Heizungs- und Abwassersysteme",
+        "ventilation": "Lüftung und Klimatisierung",
+        "fireSuppression": "Automatische Brandlöschung",
+        "control": "Steuerung und Management technischer Systeme",
+        "signaling": "Alarm- und Benachrichtigungssysteme"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projekte",
+    "subtitle": "Abgeschlossene Objekte in Kasachstan und der GUS",
+    "viewAll": "Alle ansehen",
+    "loadMore": "Mehr laden",
+    "tabs": {
+      "completed": "Abgeschlossen",
+      "inProgress": "In Arbeit"
+    }
+  },
+  "certificates": {
+    "title": "Referenzen",
+    "subtitle": "Feedback und Empfehlungsschreiben von unseren Partnern",
+    "recommendation": "Empfehlungsschreiben",
+    "certificate": "Zertifikat"
+  },
+  "process": {
+    "title": "Arbeitsprozess",
+    "subtitle": "Transparenter Prozess von der Anfrage bis zur Übergabe",
+    "steps": {
+      "step1": {
+        "title": "Anfrage",
+        "description": "Kontaktieren Sie uns zur Projektbesprechung"
+      },
+      "step2": {
+        "title": "Analyse",
+        "description": "Wir prüfen die technischen Anforderungen"
+      },
+      "step3": {
+        "title": "Planung",
+        "description": "Wir entwickeln die Projektdokumentation"
+      },
+      "step4": {
+        "title": "Umsetzung",
+        "description": "Wir führen die Installationsarbeiten durch"
+      },
+      "step5": {
+        "title": "Übergabe",
+        "description": "Wir übergeben mit Dokumentation und Garantie"
+      }
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Antworten auf häufige Fragen zur Partnerschaft",
+    "items": {
+      "faq1": {
+        "question": "In welchen Regionen arbeiten Sie?",
+        "answer": "Wir führen Projekte in ganz Kasachstan und den GUS-Staaten durch: Usbekistan, Tadschikistan, Kirgisistan."
+      },
+      "faq2": {
+        "question": "Mit welchen Objekten arbeiten Sie?",
+        "answer": "Wir spezialisieren uns auf Industrieanlagen, Flughäfen, Einkaufszentren und Wohnkomplexe."
+      },
+      "faq3": {
+        "question": "Welche Garantien bieten Sie?",
+        "answer": "Garantie auf alle Arbeiten gemäß Vertrag. Garantie- und Nachgarantieservice."
+      },
+      "faq4": {
+        "question": "Wie erfolgt die Zahlung?",
+        "answer": "Wir arbeiten vertraglich mit gestaffelten Zahlungen. Anzahlung, Zwischenzahlungen und Endabrechnung nach Fertigstellung."
+      }
+    }
+  },
+  "contacts": {
+    "title": "Kontakt",
+    "subtitle": "Lassen Sie uns Ihr Projekt besprechen",
+    "phone": {
+      "label": "Telefon"
+    },
+    "email": {
+      "label": "E-Mail"
+    },
+    "address": {
+      "label": "Adresse"
+    },
+    "schedule": {
+      "label": "Öffnungszeiten"
+    }
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "contacts": "Kontakt",
+    "schedule": "Öffnungszeiten",
+    "copyright": "Alle Rechte vorbehalten."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die angeforderte Seite existiert nicht oder wurde verschoben.",
+    "backHome": "Zurück zur Startseite"
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie"
+  },
+  "common": {
+    "readMore": "Mehr lesen",
+    "close": "Schließen",
+    "loading": "Laden...",
+    "error": "Ein Fehler ist aufgetreten"
+  },
+  "seo": {
+    "home": {
+      "title": "TIM STROY — Ingenieur- und Bauunternehmen | Kasachstan",
+      "description": "TIM STROY — Planung und Installation von technischen Systemen für Industrieanlagen, Flughäfen, Wohnkomplexe. Kasachstan und GUS."
+    },
+    "services": {
+      "title": "Dienstleistungen — TIM STROY",
+      "description": "Technische Systeme: Wasserversorgung, Kanalisation, Heizung, Lüftung, Brandschutz, Elektrik."
+    },
+    "projects": {
+      "title": "Projekte — TIM STROY",
+      "description": "Abgeschlossene Projekte von TIM STROY. Großobjekte in Kasachstan und GUS-Ländern."
+    },
+    "certificates": {
+      "title": "Referenzen — TIM STROY",
+      "description": "Feedback und Empfehlungsschreiben von TIM STROY-Partnern."
+    },
+    "contacts": {
+      "title": "Kontakt — TIM STROY",
+      "description": "Kontaktieren Sie TIM STROY, um Ihr Projekt zu besprechen."
+    }
+  }
+}

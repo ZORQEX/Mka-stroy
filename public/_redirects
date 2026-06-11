@@ -1,0 +1,3 @@
+# Cloudflare Pages redirects
+# Redirect root to default locale (backup for static export)
+/ /ru/ 302
