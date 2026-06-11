@@ -3,6 +3,7 @@ import { useState } from "react"
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 import { PROJECTS } from "@/constants/company"
+import { translateWork } from "@/constants/worksI18n"
 
 const CATEGORIES = ["Все","аэропорт","производство","жилой","торговый","офисный","ритейл","спорт","общепит","развлечения"]
 const LOCALES = ["ru","en","kk","de","ky","tr"]
@@ -183,7 +184,7 @@ export default function Projects({ preview = false, dict }: ProjectsProps) {
                   {modal.works.map((w, i) => (
                     <li key={i} className="flex items-start gap-2 text-sm text-text">
                       <span className="text-accent mt-0.5 flex-shrink-0">✓</span>
-                      {w}
+                      {translateWork(w, locale)}
                     </li>
                   ))}
                 </ul>

@@ -66,7 +66,7 @@
     "viewAll": "Alle Dienstleistungen",
     "water-supply": {
       "title": "Wasserversorgung",
-      "description": "Umfassende Wasserversorgungssysteme für Objekte jeder Größenordnung",
+      "description": "Wasserversorgung",
       "features": [
         "Kaltwasserversorgung",
         "Warmwasserversorgung",
@@ -75,8 +75,8 @@
       ]
     },
     "sewage": {
-      "title": "Kanalisation",
-      "description": "Planung und Installation von Kanalisationssystemen",
+      "title": "Abwassersysteme",
+      "description": "Abwassersysteme",
       "features": [
         "Innenkanalisation",
         "Außenkanalisation",
@@ -85,8 +85,8 @@
       ]
     },
     "hvac": {
-      "title": "Lüftung",
-      "description": "Klimasysteme für Komfort und Produktion",
+      "title": "Klima- und Lüftungsanlagen",
+      "description": "Klima- und Lüftungsanlagen",
       "features": [
         "Zuluft",
         "Abluft",
@@ -95,8 +95,8 @@
       ]
     },
     "fire-protection": {
-      "title": "Brandschutz",
-      "description": "Automatische Brandschutzsysteme",
+      "title": "Automatische Brandschutzanlagen",
+      "description": "Automatische Brandschutzanlagen",
       "features": [
         "Sprinklersysteme",
         "Sprühflutanlagen",
@@ -105,8 +105,8 @@
       ]
     },
     "heating": {
-      "title": "Heizung",
-      "description": "Effiziente Heizungssysteme schlüsselfertig",
+      "title": "Heizungsanlageninstallation",
+      "description": "Heizungsanlageninstallation",
       "features": [
         "Radiatorheizung",
         "Fußbodenheizung",
@@ -115,8 +115,8 @@
       ]
     },
     "electrical": {
-      "title": "Elektrik",
-      "description": "Stark- und Schwachstrom-Elektrosysteme",
+      "title": "Elektrosysteminstallation",
+      "description": "Elektrosysteminstallation",
       "features": [
         "Stromnetze",
         "Beleuchtung",
@@ -125,8 +125,8 @@
       ]
     },
     "boiler": {
-      "title": "Heizungsräume",
-      "description": "Bau und Modernisierung von Heizungsräumen",
+      "title": "Heizraumbau",
+      "description": "Heizraumbau",
       "features": [
         "Gaskessel",
         "Elektrokessel",
@@ -154,6 +154,10 @@
         "control": "Steuerung und Management technischer Systeme",
         "signaling": "Alarm- und Benachrichtigungssysteme"
       }
+    },
+    "water-sewage-laying": {
+      "title": "Wasser- und Abwasserleitungsverlegung",
+      "description": "Wasser- und Abwasserleitungsverlegung"
     }
   },
   "projects": {
@@ -239,6 +243,22 @@
       "faq4": {
         "question": "Wie erfolgt die Zahlung?",
         "answer": "Wir arbeiten vertraglich mit gestaffelten Zahlungen. Anzahlung, Zwischenzahlungen und Endabrechnung nach Fertigstellung."
+      },
+      "faq5": {
+        "question": "Wie lange dauern die Projekte?",
+        "answer": "Die Dauer hängt vom Umfang und der Komplexität ab. Installation für Objekte bis 5.000 m² dauert 2 bis 4 Monate. Große Industrieprojekte dauern 6 Monate oder länger."
+      },
+      "faq6": {
+        "question": "Hat das Unternehmen Lizenzen?",
+        "answer": "Ja, MKA STROY GmbH verfügt über alle erforderlichen Lizenzen und Genehmigungen für Ingenieur- und Bauarbeiten in Kasachstan und erfüllt internationale Standards."
+      },
+      "faq7": {
+        "question": "Was ist das Mindestprojektbudget?",
+        "answer": "Wir berücksichtigen Projekte ab 500.000 KZT. Für jedes Objekt wird nach einer Besichtigung ein individueller Kostenvoranschlag erstellt."
+      },
+      "faq8": {
+        "question": "Welche Garantiezeit gilt?",
+        "answer": "2 Jahre Garantie auf alle abgeschlossenen Arbeiten. Für Geräte gilt die Herstellergarantie."
       }
     }
   },

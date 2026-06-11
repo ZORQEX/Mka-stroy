@@ -41,7 +41,7 @@ export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-xl lg:text-2xl text-text-muted mb-8 max-w-xl"
             >
-              {tagline}
+              {(dict.hero as any).tagline ?? tagline}
             </motion.p>
 
             <motion.p

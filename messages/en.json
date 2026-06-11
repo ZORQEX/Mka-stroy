@@ -65,8 +65,8 @@
     "subtitle": "Comprehensive engineering solutions for your facility",
     "viewAll": "All Services",
     "water-supply": {
-      "title": "Water Supply",
-      "description": "Comprehensive water supply systems for facilities of any scale",
+      "title": "Water supply",
+      "description": "Water supply",
       "features": [
         "Cold water supply",
         "Hot water supply",
@@ -75,8 +75,8 @@
       ]
     },
     "sewage": {
-      "title": "Sewerage",
-      "description": "Design and installation of sewerage systems",
+      "title": "Sewage systems",
+      "description": "Sewage systems",
       "features": [
         "Internal sewerage",
         "External sewerage",
@@ -85,8 +85,8 @@
       ]
     },
     "hvac": {
-      "title": "Ventilation",
-      "description": "Climate systems for comfort and production",
+      "title": "Air conditioning and ventilation systems",
+      "description": "Air conditioning and ventilation systems",
       "features": [
         "Supply ventilation",
         "Exhaust ventilation",
@@ -95,8 +95,8 @@
       ]
     },
     "fire-protection": {
-      "title": "Fire Protection",
-      "description": "Automatic fire safety systems",
+      "title": "Automatic fire suppression systems",
+      "description": "Automatic fire suppression systems",
       "features": [
         "Sprinkler systems",
         "Deluge systems",
@@ -105,8 +105,8 @@
       ]
     },
     "heating": {
-      "title": "Heating",
-      "description": "Turnkey efficient heating systems",
+      "title": "Heating system installation",
+      "description": "Heating system installation",
       "features": [
         "Radiator heating",
         "Underfloor heating",
@@ -115,8 +115,8 @@
       ]
     },
     "electrical": {
-      "title": "Electrical",
-      "description": "Power and low-current electrical systems",
+      "title": "Electrical system installation",
+      "description": "Electrical system installation",
       "features": [
         "Power networks",
         "Lighting",
@@ -125,8 +125,8 @@
       ]
     },
     "boiler": {
-      "title": "Boiler Rooms",
-      "description": "Construction and modernization of boiler rooms",
+      "title": "Boiler room construction",
+      "description": "Boiler room construction",
       "features": [
         "Gas boilers",
         "Electric boilers",
@@ -154,6 +154,10 @@
         "control": "Engineering systems control and management",
         "signaling": "Alarm and notification systems"
       }
+    },
+    "water-sewage-laying": {
+      "title": "Water supply and sewage installation",
+      "description": "Water supply and sewage installation"
     }
   },
   "projects": {
@@ -239,6 +243,22 @@
       "faq4": {
         "question": "How does the payment process work?",
         "answer": "We work under contract with staged payments. Advance payment, interim payments, and final settlement after completion."
+      },
+      "faq5": {
+        "question": "What are the project timelines?",
+        "answer": "Timelines depend on the scope and complexity. Installation for facilities up to 5,000 m² takes 2 to 4 months. Large industrial projects take 6 months or more."
+      },
+      "faq6": {
+        "question": "Does the company have licenses?",
+        "answer": "Yes, MKA STROY LLC holds all necessary licenses and permits for engineering and construction work in Kazakhstan and meets international standards."
+      },
+      "faq7": {
+        "question": "What is the minimum project budget?",
+        "answer": "We consider projects from 500,000 KZT. An individual estimate is prepared for each project after inspection."
+      },
+      "faq8": {
+        "question": "What is the warranty period?",
+        "answer": "2 years on all types of completed work. Equipment carries the manufacturer’s warranty."
       }
     }
   },
