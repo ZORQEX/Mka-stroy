@@ -11,10 +11,10 @@ export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   const { name, stats, tagline } = companyData
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-center bg-bg overflow-hidden">
+    <section className="relative min-h-screen flex flex-col justify-start lg:justify-center bg-bg overflow-hidden">
       <div className="absolute inset-0 grid-pattern opacity-50" />
 
-      <div className="container relative z-10 pt-28 pb-16 lg:pt-32 lg:pb-20">
+      <div className="container relative z-10 pt-28 pb-20 lg:pt-32 lg:pb-20">
         <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           <div className="lg:col-span-7">
             <motion.div
@@ -76,7 +76,7 @@ export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="relative"
             >
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-3 gap-2 sm:gap-4">
                 {[
                   { value: stats.currentProjects, label: dict.hero.stats.currentProjects },
                   { value: stats.projectsCompleted, label: dict.hero.stats.completed },
@@ -87,10 +87,10 @@ export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.5 + i * 0.1 }}
-                    className="bg-card border border-border rounded-2xl p-5 text-center"
+                    className="bg-card border border-border rounded-2xl p-2.5 sm:p-5 text-center"
                   >
-                    <div className="stat-number text-3xl lg:text-4xl mb-1">{stat.value}</div>
-                    <div className="stat-label text-xs">{stat.label}</div>
+                    <div className="stat-number text-2xl sm:text-3xl lg:text-4xl mb-1">{stat.value}</div>
+                    <div className="stat-label text-[0.6rem] sm:text-xs leading-tight">{stat.label}</div>
                   </motion.div>
                 ))}
               </div>

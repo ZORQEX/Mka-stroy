@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import { MapPin } from 'lucide-react'
 import Link from 'next/link'
-import Image from 'next/image'
+import { ImageWithFallback } from '@/components/ImageWithFallback'
 import { companyData } from '@/constants/company'
 import type { Project } from '@/types/company'
 import type { Locale } from '@/i18n.config'
@@ -91,18 +91,18 @@ function ProjectCard({ project, variants, locale }: { project: Project; variants
     <motion.div variants={variants}>
       <Link href={`/${locale}/projects/${project.id}`} className="block group">
         <div className="relative aspect-[4/3] rounded-xl overflow-hidden mb-3 bg-card">
-          {project.image ? (
-            <Image
-              src={project.image}
-              alt={project.title}
-              fill
-              className="object-cover transition-transform duration-300 group-hover:scale-105"
-            />
-          ) : (
-            <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-accent/10 to-accent2/10">
-              <span className="text-4xl font-bold text-text/20">{project.title.charAt(0)}</span>
-            </div>
-          )}
+          <ImageWithFallback
+            src={project.image}
+            alt={project.title}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            fallback={
+              <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-accent/10 to-accent2/10">
+                <span className="text-4xl font-bold text-text/20">{project.title.charAt(0)}</span>
+              </div>
+            }
+          />
           <button
             onClick={handleMapClick}
             className={`absolute bottom-3 left-3 flex items-center gap-1.5 bg-white px-3 py-1.5 rounded-full text-xs font-medium text-gray-800 ${

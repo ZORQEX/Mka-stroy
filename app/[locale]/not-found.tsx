@@ -62,9 +62,20 @@ export default function NotFound() {
       projects: 'Долбоорлор',
       contacts: 'Байланыш',
     },
+    tr: {
+      title: 'Sayfa Bulunamadı',
+      description: 'Üzgünüz, aradığınız sayfa mevcut değil veya taşınmış.',
+      home: 'Ana Sayfa',
+      back: 'Geri Dön',
+      suggestions: 'İlginizi çekebilir:',
+      services: 'Hizmetlerimiz',
+      projects: 'Projeler',
+      contacts: 'İletişim',
+    },
   }
 
-  const t = translations[validLocale as keyof typeof translations]
+  const t =
+    translations[validLocale as keyof typeof translations] || translations.ru
 
   return (
     <section className="section min-h-screen flex items-center justify-center bg-gradient-to-br from-bg via-bg to-card">

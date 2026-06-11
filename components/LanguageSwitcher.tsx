@@ -42,8 +42,9 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
       {/* Toggle Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-card transition-colors border border-border"
+        className="flex items-center gap-2 px-3 min-h-[44px] rounded-lg hover:bg-card transition-colors border border-border"
         aria-label="Select language"
+        aria-expanded={isOpen}
       >
         <Globe size={18} className="text-accent" />
         <span className="hidden sm:inline text-sm font-medium">

@@ -1,22 +1,17 @@
 'use client'
 
 import { Sun, Moon } from 'lucide-react'
-import { useDayNightContext } from '@/contexts/DayNightContext'
 import { useThemeContext } from '@/contexts/ThemeContext'
 
 export function DayNightToggle() {
-  const dayNight = useDayNightContext()
   const theme = useThemeContext()
+  const { isLight, mounted, toggleTheme } = theme
 
-  // Use theme context as source of truth
-  const isLight = theme.isLight
-  const mounted = theme.mounted && dayNight.mounted
-
-  // Don't render until mounted (avoid hydration mismatch)
+  // Don't render the icon until mounted (avoid hydration mismatch)
   if (!mounted) {
     return (
       <button
-        className="p-2 rounded-lg hover:bg-card dark:hover:bg-card/10 transition-colors"
+        className="flex items-center justify-center min-w-[44px] min-h-[44px] rounded-lg hover:bg-card transition-colors"
         disabled
         aria-label="Loading theme"
       >
@@ -25,16 +20,10 @@ export function DayNightToggle() {
     )
   }
 
-  // Toggle both UI theme and 3D lighting
-  const handleToggle = () => {
-    theme.toggleTheme()
-    dayNight.toggleMode()
-  }
-
   return (
     <button
-      onClick={handleToggle}
-      className="p-2 rounded-lg hover:bg-card dark:hover:bg-card/10 transition-colors group"
+      onClick={toggleTheme}
+      className="flex items-center justify-center min-w-[44px] min-h-[44px] rounded-lg hover:bg-card transition-colors group"
       aria-label={`Switch to ${isLight ? 'dark' : 'light'} mode`}
       title={`Switch to ${isLight ? 'dark' : 'light'} mode`}
     >

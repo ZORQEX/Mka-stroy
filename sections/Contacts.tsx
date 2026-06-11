@@ -38,7 +38,7 @@ export function Contacts({ locale, dict }: { locale: Locale; dict: Dictionary })
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
               <div>
                 <p className="text-sm opacity-60 mb-2">{dict.contacts.phone.label}</p>
                 <a

@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X } from 'lucide-react'
-import Image from 'next/image'
+import { ImageWithFallback } from '@/components/ImageWithFallback'
 import { companyData } from '@/constants/company'
 import type { Certificate } from '@/types/company'
 import type { Locale } from '@/i18n.config'
@@ -82,19 +82,18 @@ export function Certificates({ dict, locale }: { dict: Dictionary; locale: Local
               >
                 <div className="relative aspect-[3/4] rounded-xl overflow-hidden bg-card border border-border shadow-sm transition-all duration-300 group-hover:shadow-lg group-hover:border-accent/50 group-hover:scale-[1.02]">
                   <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/5 z-10 pointer-events-none" />
-                  {cert.image ? (
-                    <Image
-                      src={cert.image}
-                      alt={cert.company}
-                      fill
-                      className="object-contain p-3"
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    />
-                  ) : (
-                    <div className="absolute inset-0 flex items-center justify-center p-6">
-                      <span className="text-sm text-text-muted text-center">{cert.company}</span>
-                    </div>
-                  )}
+                  <ImageWithFallback
+                    src={cert.image}
+                    alt={cert.company}
+                    fill
+                    className="object-contain p-3"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    fallback={
+                      <div className="absolute inset-0 flex items-center justify-center p-6">
+                        <span className="text-sm text-text-muted text-center">{cert.company}</span>
+                      </div>
+                    }
+                  />
                 </div>
 
                 <div className="mt-4 text-center">
@@ -140,13 +139,18 @@ export function Certificates({ dict, locale }: { dict: Dictionary; locale: Local
               </button>
 
               <div className="relative w-full h-[85vh] bg-neutral-100">
-                <Image
+                <ImageWithFallback
                   src={selectedCert.image}
                   alt={selectedCert.company}
                   fill
                   className="object-contain"
                   sizes="(max-width: 1024px) 100vw, 80vw"
                   priority
+                  fallback={
+                    <div className="absolute inset-0 flex items-center justify-center p-8">
+                      <span className="text-lg text-neutral-500 text-center">{selectedCert.company}</span>
+                    </div>
+                  }
                 />
               </div>
 

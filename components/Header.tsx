@@ -90,8 +90,9 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             <LanguageSwitcher currentLocale={locale} />
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-lg hover:bg-card transition-colors"
+              className="flex items-center justify-center min-w-[44px] min-h-[44px] rounded-lg hover:bg-card transition-colors"
               aria-label="Toggle menu"
+              aria-expanded={isOpen}
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -113,7 +114,7 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
                     key={item.href}
                     href={item.href}
                     onClick={() => setIsOpen(false)}
-                    className="block py-2 text-sm font-medium hover:text-accent transition-colors"
+                    className="flex items-center min-h-[44px] text-base font-medium hover:text-accent transition-colors"
                   >
                     {item.label}
                   </Link>

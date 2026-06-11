@@ -8,7 +8,6 @@ export async function generateMetadata({
 }: {
   params: { locale: Locale }
 }): Promise<Metadata> {
-  const locale = params.locale
   const dict = await getDictionary(params.locale)
   return {
     title: dict.seo.privacy?.title || 'Privacy Policy',
@@ -21,7 +20,6 @@ export default async function PrivacyPage({
 }: {
   params: { locale: Locale }
 }) {
-  const locale = params.locale
   const dict = await getDictionary(params.locale)
 
   return (

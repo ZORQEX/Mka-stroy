@@ -2,8 +2,8 @@
 
 import { motion } from 'framer-motion'
 import { ArrowLeft, MapPin, Calendar, Building2, ExternalLink } from 'lucide-react'
-import Image from 'next/image'
 import Link from 'next/link'
+import { ImageWithFallback } from '@/components/ImageWithFallback'
 import type { Project } from '@/types/company'
 import type { Locale } from '@/i18n.config'
 import type { Dictionary } from '@/lib/i18n'
@@ -39,19 +39,19 @@ export function ProjectDetail({ project, dict, locale }: ProjectDetailProps) {
             transition={{ delay: 0.1 }}
           >
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-card">
-              {project.image ? (
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  fill
-                  className="object-cover"
-                  priority
-                />
-              ) : (
-                <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-accent/10 to-accent2/10">
-                  <span className="text-6xl font-bold text-text/20">{project.title.charAt(0)}</span>
-                </div>
-              )}
+              <ImageWithFallback
+                src={project.image}
+                alt={project.title}
+                fill
+                priority
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover"
+                fallback={
+                  <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-accent/10 to-accent2/10">
+                    <span className="text-6xl font-bold text-text/20">{project.title.charAt(0)}</span>
+                  </div>
+                }
+              />
               {project.status && (
                 <div className={`absolute top-4 right-4 px-3 py-1.5 rounded-full text-xs font-medium ${
                   project.status === 'completed'
@@ -72,11 +72,17 @@ export function ProjectDetail({ project, dict, locale }: ProjectDetailProps) {
                     key={index}
                     className="relative aspect-square rounded-lg overflow-hidden bg-card cursor-pointer hover:opacity-80 transition-opacity"
                   >
-                    <Image
+                    <ImageWithFallback
                       src={img}
                       alt={`${project.title} - ${index + 1}`}
                       fill
+                      sizes="(max-width: 1024px) 25vw, 12vw"
                       className="object-cover"
+                      fallback={
+                        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-accent/10 to-accent2/10">
+                          <span className="text-xl font-bold text-text/20">{project.title.charAt(0)}</span>
+                        </div>
+                      }
                     />
                   </div>
                 ))}
