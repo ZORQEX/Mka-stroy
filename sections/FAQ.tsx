@@ -6,7 +6,7 @@ import { ChevronDown } from 'lucide-react'
 import type { Locale } from '@/i18n.config'
 import type { Dictionary } from '@/lib/i18n'
 
-const faqIds = ['faq1', 'faq2', 'faq3', 'faq4']
+const faqIds = ['faq1', 'faq2', 'faq3', 'faq4', 'faq5', 'faq6', 'faq7', 'faq8']
 
 export function FAQ({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   const [openId, setOpenId] = useState<string | null>(null)

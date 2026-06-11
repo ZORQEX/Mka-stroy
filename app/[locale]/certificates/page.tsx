@@ -11,8 +11,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const dict = await getDictionary(params.locale)
   return {
-    title: dict.seo.certificates?.title || 'Сертификаты — TIM STROY',
-    description: dict.seo.certificates?.description || 'Сертификаты и рекомендательные письма от партнёров TIM STROY.',
+    title: dict.seo.certificates?.title || 'Сертификаты — MKA STROY',
+    description: dict.seo.certificates?.description || 'Сертификаты и рекомендательные письма от партнёров MKA STROY.',
   }
 }
 

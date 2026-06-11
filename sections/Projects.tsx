@@ -1,123 +1,158 @@
-'use client'
+"use client"
+import { useState } from "react"
+import { PROJECTS } from "@/constants/company"
 
-import { motion } from 'framer-motion'
-import { MapPin } from 'lucide-react'
-import Link from 'next/link'
-import { ImageWithFallback } from '@/components/ImageWithFallback'
-import { companyData } from '@/constants/company'
-import type { Project } from '@/types/company'
-import type { Locale } from '@/i18n.config'
-import type { Dictionary } from '@/lib/i18n'
+const CATEGORIES = ["Все","аэропорт","производство","жилой","торговый","офисный","ритейл","спорт","общепит","развлечения"]
 
-export function Projects({ locale, dict, showAll = false }: { locale: Locale; dict: Dictionary; showAll?: boolean }) {
-  const { projects } = companyData
-  const visibleProjects = showAll ? projects : projects.slice(0, 8)
-  const hasMore = !showAll && projects.length > 8
+export default function Projects() {
+  const [active, setActive] = useState("Все")
+  const [modal, setModal] = useState<typeof PROJECTS[0] | null>(null)
+  const [imgIdx, setImgIdx] = useState(0)
 
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: { staggerChildren: 0.1 },
-    },
-  }
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.4 },
-    },
-  }
-
+  const filtered = active === "Все" ? PROJECTS : PROJECTS.filter(p => p.category === active)
 
   return (
-    <section className="section bg-bg" id="projects">
-      <div className="container">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="mb-10"
-        >
-          <div className="inline-block bg-accent text-white px-4 py-2 font-medium mb-8">
-            {dict.projects.tabs?.completed || ''}
-          </div>
-        </motion.div>
+    <section id="projects" className="py-20 bg-[#F1F1F1]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <h2 className="text-3xl sm:text-4xl font-bold text-[#424242] mb-3">Наши проекты</h2>
+        <p className="text-[#424242]/60 mb-8">54 завершённых объекта в 5 странах</p>
 
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10"
-        >
-          {visibleProjects.map((project) => (
-            <ProjectCard key={project.id} project={project} variants={itemVariants} locale={locale} />
-          ))}
-        </motion.div>
-
-        {hasMore && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center"
-          >
-            <Link
-              href={`/${locale}/projects`}
-              className="btn btn-secondary"
+        {/* Фильтры */}
+        <div className="flex flex-wrap gap-2 mb-10">
+          {CATEGORIES.map(cat => (
+            <button
+              key={cat}
+              onClick={() => setActive(cat)}
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all capitalize ${
+                active === cat
+                  ? "bg-[#C0430B] text-white"
+                  : "bg-white text-[#424242] hover:bg-[#C0430B]/10 border border-[#424242]/20"
+              }`}
             >
-              {dict.projects.viewAll || dict.projects.loadMore || ''}
-            </Link>
-          </motion.div>
-        )}
-      </div>
-    </section>
-  )
-}
-
-function ProjectCard({ project, variants, locale }: { project: Project; variants: any; locale: Locale }) {
-  const handleMapClick = (e: React.MouseEvent) => {
-    if (project.mapsUrl) {
-      e.preventDefault()
-      e.stopPropagation()
-      window.open(project.mapsUrl, '_blank', 'noopener,noreferrer')
-    }
-  }
-
-  return (
-    <motion.div variants={variants}>
-      <Link href={`/${locale}/projects/${project.id}`} className="block group">
-        <div className="relative aspect-[4/3] rounded-xl overflow-hidden mb-3 bg-card">
-          <ImageWithFallback
-            src={project.image}
-            alt={project.title}
-            fill
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
-            fallback={
-              <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-accent/10 to-accent2/10">
-                <span className="text-4xl font-bold text-text/20">{project.title.charAt(0)}</span>
-              </div>
-            }
-          />
-          <button
-            onClick={handleMapClick}
-            className={`absolute bottom-3 left-3 flex items-center gap-1.5 bg-white px-3 py-1.5 rounded-full text-xs font-medium text-gray-800 ${
-              project.mapsUrl ? 'hover:bg-accent hover:text-white transition-colors cursor-pointer' : ''
-            }`}
-            title={project.mapsUrl ? 'Open in Google Maps' : project.location}
-          >
-            <MapPin size={12} className={project.mapsUrl ? 'group-hover:text-white' : 'text-accent'} />
-            {project.location}
-          </button>
+              {cat === "Все" ? `Все (${PROJECTS.length})` : cat}
+            </button>
+          ))}
         </div>
-        <h3 className="text-sm font-medium text-center leading-tight group-hover:text-accent transition-colors">
-          «{project.title}»
-        </h3>
-      </Link>
-    </motion.div>
+
+        {/* Сетка */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filtered.map(project => (
+            <div
+              key={project.id}
+              onClick={() => { setModal(project); setImgIdx(0) }}
+              className="group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
+            >
+              <div className="relative h-52 overflow-hidden">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={project.images[0]}
+                  alt={project.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <span className="absolute top-3 left-3 bg-[#C0430B] text-white text-xs px-2 py-1 rounded-full capitalize">
+                  {project.category}
+                </span>
+                {project.images.length > 1 && (
+                  <span className="absolute top-3 right-3 bg-black/50 text-white text-xs px-2 py-1 rounded-full">
+                    {project.images.length} фото
+                  </span>
+                )}
+              </div>
+              <div className="p-4">
+                <h3 className="font-semibold text-[#424242] text-base leading-tight mb-1 line-clamp-2">
+                  {project.title}
+                </h3>
+                <p className="text-[#424242]/50 text-sm mb-2">{project.city}</p>
+                <div className="flex items-center justify-between text-xs text-[#424242]/60">
+                  <span>{project.date}</span>
+                  {project.area && <span className="font-medium">{project.area}</span>}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Модальное окно */}
+      {modal && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80"
+          onClick={() => setModal(null)}
+        >
+          <div
+            className="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto"
+            onClick={e => e.stopPropagation()}
+          >
+            {/* Галерея */}
+            <div className="relative">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={modal.images[imgIdx]}
+                alt={modal.title}
+                className="w-full h-64 sm:h-80 object-cover rounded-t-2xl"
+              />
+              {modal.images.length > 1 && (
+                <div className="absolute bottom-3 left-0 right-0 flex justify-center gap-2">
+                  {modal.images.map((_, i) => (
+                    <button
+                      key={i}
+                      onClick={() => setImgIdx(i)}
+                      className={`w-2 h-2 rounded-full transition-all ${i === imgIdx ? "bg-white w-5" : "bg-white/50"}`}
+                    />
+                  ))}
+                </div>
+              )}
+              {modal.images.length > 1 && (
+                <>
+                  <button
+                    onClick={() => setImgIdx(i => (i - 1 + modal.images.length) % modal.images.length)}
+                    className="absolute left-3 top-1/2 -translate-y-1/2 bg-black/50 text-white w-9 h-9 rounded-full flex items-center justify-center hover:bg-black/70"
+                  >‹</button>
+                  <button
+                    onClick={() => setImgIdx(i => (i + 1) % modal.images.length)}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 bg-black/50 text-white w-9 h-9 rounded-full flex items-center justify-center hover:bg-black/70"
+                  >›</button>
+                </>
+              )}
+              <button
+                onClick={() => setModal(null)}
+                className="absolute top-3 right-3 bg-black/50 text-white w-9 h-9 rounded-full flex items-center justify-center hover:bg-black/70 text-xl"
+              >×</button>
+            </div>
+
+            {/* Детали */}
+            <div className="p-6">
+              <span className="inline-block bg-[#C0430B]/10 text-[#C0430B] text-xs px-3 py-1 rounded-full capitalize mb-3">
+                {modal.category}
+              </span>
+              <h3 className="text-xl font-bold text-[#424242] mb-4">{modal.title}</h3>
+              <div className="grid grid-cols-2 gap-3 mb-5 text-sm">
+                {modal.client && (
+                  <div><p className="text-[#424242]/50 text-xs mb-0.5">Клиент</p><p className="font-medium text-[#424242]">{modal.client}</p></div>
+                )}
+                <div><p className="text-[#424242]/50 text-xs mb-0.5">Дата</p><p className="font-medium text-[#424242]">{modal.date}</p></div>
+                {modal.area && (
+                  <div><p className="text-[#424242]/50 text-xs mb-0.5">Площадь</p><p className="font-medium text-[#424242]">{modal.area}</p></div>
+                )}
+                <div><p className="text-[#424242]/50 text-xs mb-0.5">Город</p><p className="font-medium text-[#424242]">{modal.city}</p></div>
+              </div>
+              <div>
+                <p className="text-xs text-[#424242]/50 mb-2">Выполненные работы:</p>
+                <ul className="space-y-1">
+                  {modal.works.map((w, i) => (
+                    <li key={i} className="flex items-start gap-2 text-sm text-[#424242]">
+                      <span className="text-[#C0430B] mt-0.5 flex-shrink-0">✓</span>
+                      {w}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </section>
   )
 }

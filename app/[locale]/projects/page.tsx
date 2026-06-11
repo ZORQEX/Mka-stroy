@@ -1,6 +1,6 @@
 import { type Locale } from '@/i18n.config'
 import { getDictionary } from '@/lib/i18n'
-import { Projects } from '@/sections/Projects'
+import Projects from '@/sections/Projects'
 import { Process } from '@/sections/Process'
 import { Contacts } from '@/sections/Contacts'
 import type { Metadata } from 'next'
@@ -26,17 +26,9 @@ export default async function ProjectsPage({
 
   return (
     <>
-      <section className="section bg-bg pt-32">
-        <div className="container">
-          <div className="text-center mb-16">
-            <h1 className="mb-4">{dict.projects.title}</h1>
-            <p className="text-lg opacity-70 max-w-2xl mx-auto">
-              {dict.projects.subtitle}
-            </p>
-          </div>
-        </div>
-      </section>
-      <Projects dict={dict} locale={params.locale} showAll={true} />
+      <div className="pt-20">
+        <Projects />
+      </div>
       <Process dict={dict} locale={params.locale} />
       <Contacts dict={dict} locale={params.locale} />
     </>

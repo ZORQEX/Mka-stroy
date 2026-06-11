@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { ArrowRight, Droplets, Wind, Flame, Thermometer, Zap, Factory, Pipette } from 'lucide-react'
 import { ServicesDrawer } from '@/components/ServicesDrawer'
+import { companyData } from '@/constants/company'
 import type { Locale } from '@/i18n.config'
 import type { Dictionary } from '@/lib/i18n'
 
@@ -17,15 +18,7 @@ const iconMap: Record<string, any> = {
   Pipette,
 }
 
-const services = [
-  { id: 'water-supply', icon: 'Droplets' },
-  { id: 'sewage', icon: 'Pipette' },
-  { id: 'hvac', icon: 'Wind' },
-  { id: 'fire-protection', icon: 'Flame' },
-  { id: 'heating', icon: 'Thermometer' },
-  { id: 'electrical', icon: 'Zap' },
-  { id: 'boiler', icon: 'Factory' },
-]
+const services = companyData.services
 
 export function Services({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
@@ -84,7 +77,7 @@ export function Services({ locale, dict }: { locale: Locale; dict: Dictionary })
                     <IconComponent size={36} className="text-accent" />
                   </div>
                   <h3 className="text-text text-sm md:text-base font-medium leading-tight">
-                    {serviceData?.title || service.id}
+                    {serviceData?.title || service.title}
                   </h3>
                 </motion.div>
               )

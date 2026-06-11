@@ -16,7 +16,7 @@ export function JsonLd() {
     },
     telephone: contacts.phone,
     email: contacts.email,
-    url: 'https://mkastroy.kz',
+    url: 'https://mkastroy.com',
     areaServed: {
       '@type': 'City',
       name: city,

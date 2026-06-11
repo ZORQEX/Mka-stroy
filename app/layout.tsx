@@ -9,11 +9,11 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://mkastroy.kz'),
-  title: 'TIM STROY — Инженерно-строительная компания',
+  metadataBase: new URL('https://mkastroy.com'),
+  title: 'MKA STROY — Инженерно-строительная компания',
   description:
     'Инженерно-строительная компания с международным опытом. Проектирование и монтаж инженерных систем для промышленных объектов, аэропортов и жилых комплексов.',
-  applicationName: 'TIM STROY',
+  applicationName: 'MKA STROY',
   formatDetection: { telephone: true },
   icons: {
     icon: '/favicon.ico',

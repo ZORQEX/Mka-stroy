@@ -27,7 +27,7 @@ export async function generateMetadata({
       description: dict.seo.home.description,
       type: 'website',
       locale: params.locale === 'ru' ? 'ru_RU' : params.locale === 'en' ? 'en_US' : params.locale === 'kk' ? 'kk_KZ' : params.locale === 'de' ? 'de_DE' : params.locale === 'tr' ? 'tr_TR' : 'ky_KG',
-      siteName: 'TIM STROY',
+      siteName: 'MKA STROY',
     },
     alternates: {
       canonical: `/${params.locale}`,

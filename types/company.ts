@@ -9,15 +9,15 @@ export interface Service {
 export interface Project {
   id: string;
   title: string;
+  client: string;
+  date: string;
+  area: string;
+  city: string;
   category: string;
-  location: string;
-  country: string;
-  year: number;
-  description: string;
-  image?: string;
-  mapsUrl?: string;
+  works: string[];
+  images: string[];
   status?: 'completed' | 'in_progress';
-  gallery?: string[];
+  mapsUrl?: string;
 }
 
 export interface Certificate {

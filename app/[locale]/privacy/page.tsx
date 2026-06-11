@@ -31,7 +31,7 @@ export default async function PrivacyPage({
             <div className="prose prose-lg opacity-80">
               <p>
                 {dict.footer?.privacyDescription ||
-                  'This page contains the privacy policy for TIM STROY. We respect your privacy and are committed to protecting your personal data.'}
+                  'This page contains the privacy policy for MKA STROY. We respect your privacy and are committed to protecting your personal data.'}
               </p>
 
               <h2>Data Collection</h2>

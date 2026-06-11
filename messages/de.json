@@ -9,7 +9,7 @@
   },
   "hero": {
     "badge": "Ingenieur- und Bauunternehmen",
-    "title": "TIM STROY",
+    "title": "MKA STROY",
     "tagline": "Ingenieurlösungen auf Weltniveau",
     "description": "Planung und Installation von technischen Systemen für Industrieanlagen, Flughäfen und Wohnkomplexe in Kasachstan und der GUS.",
     "experience": "Über 10 Jahre erfolgreiche Partnerschaft mit internationalen Konzernen. Mehr als 50 Großprojekte abgeschlossen.",
@@ -27,7 +27,7 @@
   "about": {
     "title": "Über uns",
     "subtitle": "Zuverlässiger Partner im Ingenieurwesen",
-    "description": "TIM STROY ist ein Ingenieur- und Bauunternehmen mit umfangreicher Erfahrung in Kasachstan und GUS-Ländern. Wir spezialisieren uns auf die Planung und Installation von technischen Systemen für Objekte jeder Größenordnung.",
+    "description": "MKA STROY ist ein Ingenieur- und Bauunternehmen mit umfangreicher Erfahrung in Kasachstan und GUS-Ländern. Wir spezialisieren uns auf die Planung und Installation von technischen Systemen für Objekte jeder Größenordnung.",
     "experience": "Zu unseren Kunden gehören internationale Konzerne, Flughäfen, Produktionsanlagen und große Wohnkomplexe. Jedes Projekt wird von einem Team hochqualifizierter Spezialisten mit modernsten Technologien durchgeführt.",
     "page": {
       "whyUs": "Warum uns wählen",
@@ -101,12 +101,12 @@
     },
     "drawer": {
       "title": "Unsere Lösungen",
-      "intro": "TIM STROY LLP bietet ein breites Spektrum an Installationsdienstleistungen für Wohn-, Industrie- und Bürogebäude.",
+      "intro": "MKA STROY LLP bietet ein breites Spektrum an Installationsdienstleistungen für Wohn-, Industrie- und Bürogebäude.",
       "supply": "Unser Unternehmen liefert auch umfassende Ausrüstung für Heizungs-, Wasserversorgungs-, Abwasser-, Lüftungs- und Klimaanlagen direkt von unseren Partnern — renommierten Herstellern.",
-      "services": "TIM STROY LLP bietet das gesamte Spektrum an Montage- und Inbetriebnahmedienstleistungen für interne und externe Versorgungsnetze von Gebäuden und kompletten Industrie- oder Wohnkomplexen gemäß nationalen und internationalen Standards.",
+      "services": "MKA STROY LLP bietet das gesamte Spektrum an Montage- und Inbetriebnahmedienstleistungen für interne und externe Versorgungsnetze von Gebäuden und kompletten Industrie- oder Wohnkomplexen gemäß nationalen und internationalen Standards.",
       "scope": "Die Tätigkeit des Unternehmens umfasst alle Bereiche im Zusammenhang mit Versorgungsnetzen von Gebäuden und Bauwerken, einschließlich Neubau, Sanierung und Umbau.",
       "design": "Auf Anfrage entwickeln wir für Sie Planungs- und Arbeitsunterlagen.",
-      "quality": "TIM STROY LLP gewährleistet eine qualitativ hochwertige Arbeitsausführung in optimalen Zeiträumen und im Rahmen des vereinbarten Budgets.",
+      "quality": "MKA STROY LLP gewährleistet eine qualitativ hochwertige Arbeitsausführung in optimalen Zeiträumen und im Rahmen des vereinbarten Budgets.",
       "welcome": "Wir freuen uns darauf, Sie zu unseren Kunden und Partnern zählen zu dürfen!",
       "servicesTitle": "Arbeitsbereiche",
       "list": {
@@ -223,24 +223,24 @@
   },
   "seo": {
     "home": {
-      "title": "TIM STROY — Ingenieur- und Bauunternehmen | Kasachstan",
-      "description": "TIM STROY — Planung und Installation von technischen Systemen für Industrieanlagen, Flughäfen, Wohnkomplexe. Kasachstan und GUS."
+      "title": "MKA STROY — Ingenieur- und Bauunternehmen | Kasachstan",
+      "description": "MKA STROY — Planung und Installation von technischen Systemen für Industrieanlagen, Flughäfen, Wohnkomplexe. Kasachstan und GUS."
     },
     "services": {
-      "title": "Dienstleistungen — TIM STROY",
+      "title": "Dienstleistungen — MKA STROY",
       "description": "Technische Systeme: Wasserversorgung, Kanalisation, Heizung, Lüftung, Brandschutz, Elektrik."
     },
     "projects": {
-      "title": "Projekte — TIM STROY",
-      "description": "Abgeschlossene Projekte von TIM STROY. Großobjekte in Kasachstan und GUS-Ländern."
+      "title": "Projekte — MKA STROY",
+      "description": "Abgeschlossene Projekte von MKA STROY. Großobjekte in Kasachstan und GUS-Ländern."
     },
     "certificates": {
-      "title": "Referenzen — TIM STROY",
-      "description": "Feedback und Empfehlungsschreiben von TIM STROY-Partnern."
+      "title": "Referenzen — MKA STROY",
+      "description": "Feedback und Empfehlungsschreiben von MKA STROY-Partnern."
     },
     "contacts": {
-      "title": "Kontakt — TIM STROY",
-      "description": "Kontaktieren Sie TIM STROY, um Ihr Projekt zu besprechen."
+      "title": "Kontakt — MKA STROY",
+      "description": "Kontaktieren Sie MKA STROY, um Ihr Projekt zu besprechen."
     }
   }
 }

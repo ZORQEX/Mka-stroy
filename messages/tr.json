@@ -9,7 +9,7 @@
   },
   "hero": {
     "badge": "Mühendislik ve İnşaat Şirketi",
-    "title": "TIM STROY",
+    "title": "MKA STROY",
     "tagline": "Dünya Standartlarında Mühendislik Çözümleri",
     "description": "Kazakistan ve BDT ülkelerinde endüstriyel tesisler, havalimanları ve konut kompleksleri için mühendislik sistemlerinin tasarımı ve montajı.",
     "experience": "Uluslararası şirketlerle 10 yılı aşkın başarılı iş birliği. 50'den fazla büyük proje tamamlandı.",
@@ -27,7 +27,7 @@
   "about": {
     "title": "Hakkımızda",
     "subtitle": "Mühendislik inşaatında güvenilir ortak",
-    "description": "TIM STROY, Kazakistan ve BDT ülkelerinde uzun yıllara dayanan deneyime sahip bir mühendislik ve inşaat şirketidir. Her ölçekteki tesisler için mühendislik sistemlerinin tasarımı ve montajında uzmanlaşmış bulunmaktayız.",
+    "description": "MKA STROY, Kazakistan ve BDT ülkelerinde uzun yıllara dayanan deneyime sahip bir mühendislik ve inşaat şirketidir. Her ölçekteki tesisler için mühendislik sistemlerinin tasarımı ve montajında uzmanlaşmış bulunmaktayız.",
     "experience": "Müşterilerimiz arasında uluslararası şirketler, havalimanları, üretim tesisleri ve büyük konut kompleksleri yer almaktadır. Her proje, modern teknolojiler kullanılarak uzman bir ekip tarafından gerçekleştirilmektedir.",
     "page": {
       "whyUs": "Neden Bizi Seçmelisiniz",
@@ -101,12 +101,12 @@
     },
     "drawer": {
       "title": "Çözümlerimiz",
-      "intro": "TIM STROY LLP, konut, endüstriyel ve ofis binaları için geniş bir montaj hizmetleri yelpazesi sunmaktadır.",
+      "intro": "MKA STROY LLP, konut, endüstriyel ve ofis binaları için geniş bir montaj hizmetleri yelpazesi sunmaktadır.",
       "supply": "Şirketimiz ayrıca ortaklarımız olan tanınmış üreticilerden ısıtma, su temini, kanalizasyon, havalandırma ve iklimlendirme sistemleri için kapsamlı ekipman tedariki yapmaktadır.",
-      "services": "TIM STROY LLP, ulusal ve uluslararası standartlara uygun olarak binaların ve tüm endüstriyel veya konut komplekslerinin iç ve dış mühendislik ağlarının montaj ve devreye alma hizmetlerinin tamamını sunmaktadır.",
+      "services": "MKA STROY LLP, ulusal ve uluslararası standartlara uygun olarak binaların ve tüm endüstriyel veya konut komplekslerinin iç ve dış mühendislik ağlarının montaj ve devreye alma hizmetlerinin tamamını sunmaktadır.",
       "scope": "Şirketin faaliyet alanı, inşaat, büyük onarımlar ve yeniden yapılanma dahil olmak üzere bina ve yapıların mühendislik ağlarıyla ilgili tüm alanları kapsamaktadır.",
       "design": "Talebiniz üzerine proje ve çalışma belgelerini geliştirebiliriz.",
-      "quality": "TIM STROY LLP, optimum süre ve bütçe dahilinde yüksek kaliteli iş yürütmeyi garanti eder.",
+      "quality": "MKA STROY LLP, optimum süre ve bütçe dahilinde yüksek kaliteli iş yürütmeyi garanti eder.",
       "welcome": "Sizi müşterilerimiz ve ortaklarımız arasında görmekten mutluluk duyarız!",
       "servicesTitle": "Hizmet Alanları",
       "list": {
@@ -223,24 +223,24 @@
   },
   "seo": {
     "home": {
-      "title": "TIM STROY — Mühendislik ve İnşaat Şirketi | Kazakistan",
-      "description": "TIM STROY — endüstriyel tesisler, havalimanları ve konut kompleksleri için mühendislik sistemleri tasarımı ve montajı. Kazakistan ve BDT."
+      "title": "MKA STROY — Mühendislik ve İnşaat Şirketi | Kazakistan",
+      "description": "MKA STROY — endüstriyel tesisler, havalimanları ve konut kompleksleri için mühendislik sistemleri tasarımı ve montajı. Kazakistan ve BDT."
     },
     "services": {
-      "title": "Hizmetler — TIM STROY",
+      "title": "Hizmetler — MKA STROY",
       "description": "Mühendislik sistemleri: su temini, kanalizasyon, ısıtma, havalandırma, yangın söndürme, elektrik."
     },
     "projects": {
-      "title": "Projeler — TIM STROY",
-      "description": "TIM STROY tamamlanmış projeleri. Kazakistan ve BDT ülkelerindeki büyük projeler."
+      "title": "Projeler — MKA STROY",
+      "description": "MKA STROY tamamlanmış projeleri. Kazakistan ve BDT ülkelerindeki büyük projeler."
     },
     "certificates": {
-      "title": "Referanslar — TIM STROY",
-      "description": "TIM STROY ortaklarından geri bildirimler ve referans mektupları."
+      "title": "Referanslar — MKA STROY",
+      "description": "MKA STROY ortaklarından geri bildirimler ve referans mektupları."
     },
     "contacts": {
-      "title": "İletişim — TIM STROY",
-      "description": "Projenizi görüşmek için TIM STROY ile iletişime geçin."
+      "title": "İletişim — MKA STROY",
+      "description": "Projenizi görüşmek için MKA STROY ile iletişime geçin."
     }
   }
 }

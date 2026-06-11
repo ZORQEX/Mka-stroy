@@ -9,7 +9,7 @@
   },
   "hero": {
     "badge": "Engineering & Construction Company",
-    "title": "TIM STROY",
+    "title": "MKA STROY",
     "tagline": "World-Class Engineering Solutions",
     "description": "Design and installation of engineering systems for industrial facilities, airports and residential complexes in Kazakhstan and CIS.",
     "experience": "Over 10 years of successful partnership with international corporations. More than 50 major projects completed.",
@@ -27,7 +27,7 @@
   "about": {
     "title": "About Us",
     "subtitle": "Reliable partner in engineering construction",
-    "description": "TIM STROY is an engineering and construction company with extensive experience in Kazakhstan and CIS countries. We specialize in the design and installation of engineering systems for facilities of any scale.",
+    "description": "MKA STROY is an engineering and construction company with extensive experience in Kazakhstan and CIS countries. We specialize in the design and installation of engineering systems for facilities of any scale.",
     "experience": "Our clients include international corporations, airports, manufacturing facilities, and major residential complexes. Each project is executed by a team of highly qualified specialists using modern technologies.",
     "page": {
       "whyUs": "Why Choose Us",
@@ -101,12 +101,12 @@
     },
     "drawer": {
       "title": "Our Solutions",
-      "intro": "TIM STROY LLP offers a wide range of installation services for residential, industrial, and office buildings.",
+      "intro": "MKA STROY LLP offers a wide range of installation services for residential, industrial, and office buildings.",
       "supply": "Our company also provides comprehensive supply of equipment for heating, water supply, sewerage, ventilation, and air conditioning systems directly from our partners — renowned manufacturers.",
-      "services": "TIM STROY LLP provides a full range of installation and commissioning services for internal and external engineering networks of buildings and entire industrial or residential complexes, adhering to national and international standards.",
+      "services": "MKA STROY LLP provides a full range of installation and commissioning services for internal and external engineering networks of buildings and entire industrial or residential complexes, adhering to national and international standards.",
       "scope": "The company's activities cover all areas related to engineering networks of buildings and structures, including construction, major repairs, and reconstruction.",
       "design": "Upon your request, we can develop design and working documentation.",
-      "quality": "TIM STROY LLP will ensure high-quality work execution within optimal timeframes and budget.",
+      "quality": "MKA STROY LLP will ensure high-quality work execution within optimal timeframes and budget.",
       "welcome": "We look forward to welcoming you among our clients and partners!",
       "servicesTitle": "Service Areas",
       "list": {
@@ -223,24 +223,24 @@
   },
   "seo": {
     "home": {
-      "title": "TIM STROY — Engineering & Construction Company | Kazakhstan",
-      "description": "TIM STROY — design and installation of engineering systems for industrial facilities, airports, residential complexes. Kazakhstan and CIS."
+      "title": "MKA STROY — Engineering & Construction Company | Kazakhstan",
+      "description": "MKA STROY — design and installation of engineering systems for industrial facilities, airports, residential complexes. Kazakhstan and CIS."
     },
     "services": {
-      "title": "Services — TIM STROY",
+      "title": "Services — MKA STROY",
       "description": "Engineering systems: water supply, sewerage, heating, ventilation, fire protection, electrical."
     },
     "projects": {
-      "title": "Projects — TIM STROY",
-      "description": "Completed TIM STROY projects. Major facilities in Kazakhstan and CIS countries."
+      "title": "Projects — MKA STROY",
+      "description": "Completed MKA STROY projects. Major facilities in Kazakhstan and CIS countries."
     },
     "certificates": {
-      "title": "References — TIM STROY",
-      "description": "Feedback and recommendation letters from TIM STROY partners."
+      "title": "References — MKA STROY",
+      "description": "Feedback and recommendation letters from MKA STROY partners."
     },
     "contacts": {
-      "title": "Contact — TIM STROY",
-      "description": "Contact TIM STROY to discuss your project."
+      "title": "Contact — MKA STROY",
+      "description": "Contact MKA STROY to discuss your project."
     }
   }
 }
