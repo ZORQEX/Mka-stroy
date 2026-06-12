@@ -66,73 +66,31 @@
     "viewAll": "Alle Dienstleistungen",
     "water-supply": {
       "title": "Wasserversorgung",
-      "description": "Wasserversorgung",
-      "features": [
-        "Kaltwasserversorgung",
-        "Warmwasserversorgung",
-        "Pumpstationen",
-        "Wasseraufbereitung"
-      ]
+      "description": "Wasserversorgung"
     },
     "sewage": {
       "title": "Abwassersysteme",
-      "description": "Abwassersysteme",
-      "features": [
-        "Innenkanalisation",
-        "Außenkanalisation",
-        "Regenwasserableitung",
-        "Kläranlagen"
-      ]
+      "description": "Abwassersysteme"
     },
     "hvac": {
       "title": "Klima- und Lüftungsanlagen",
-      "description": "Klima- und Lüftungsanlagen",
-      "features": [
-        "Zuluft",
-        "Abluft",
-        "Klimatisierung",
-        "Klimakontrolle"
-      ]
+      "description": "Klima- und Lüftungsanlagen"
     },
     "fire-protection": {
       "title": "Automatische Brandschutzanlagen",
-      "description": "Automatische Brandschutzanlagen",
-      "features": [
-        "Sprinklersysteme",
-        "Sprühflutanlagen",
-        "Gaslöschanlagen",
-        "Brandmeldeanlage"
-      ]
+      "description": "Automatische Brandschutzanlagen"
     },
     "heating": {
       "title": "Heizungsanlageninstallation",
-      "description": "Heizungsanlageninstallation",
-      "features": [
-        "Radiatorheizung",
-        "Fußbodenheizung",
-        "Wärmepunkte",
-        "Heizungsräume"
-      ]
+      "description": "Heizungsanlageninstallation"
     },
     "electrical": {
       "title": "Elektrosysteminstallation",
-      "description": "Elektrosysteminstallation",
-      "features": [
-        "Stromnetze",
-        "Beleuchtung",
-        "Schwachstromsysteme",
-        "Erdung"
-      ]
+      "description": "Elektrosysteminstallation"
     },
     "boiler": {
       "title": "Heizraumbau",
-      "description": "Heizraumbau",
-      "features": [
-        "Gaskessel",
-        "Elektrokessel",
-        "Modulare Heizungsräume",
-        "Renovierung"
-      ]
+      "description": "Heizraumbau"
     },
     "drawer": {
       "title": "Unsere Lösungen",
@@ -191,36 +149,6 @@
       "photos": "Fotos"
     },
     "viewAllProjects": "Alle Projekte ansehen"
-  },
-  "certificates": {
-    "title": "Zertifikate & Lizenzen",
-    "subtitle": "MKA STROY GmbH verfügt über alle erforderlichen Lizenzen und Genehmigungen für Ingenieur- und Bauarbeiten in Kasachstan und GUS",
-    "recommendation": "Empfehlungsschreiben",
-    "certificate": "Zertifikat",
-    "note": "Originaldokumente werden auf Anfrage beim Vertragsabschluss bereitgestellt. Für Kopien: info@mkastroy.com",
-    "cert_badge": "Gültig",
-    "view_detail": "Details anzeigen",
-    "issuer_label": "Ausgestellt von",
-    "year_label": "Ausstellungsdatum",
-    "contact_for_cert": "Original wird auf Anfrage beim Vertragsabschluss bereitgestellt",
-    "cert1_name": "Lizenz für Bau- und Montagearbeiten",
-    "cert1_issuer": "Ausschuss für Bau- und Wohnungswesen der RK",
-    "cert1_year": "Gültig seit 2012",
-    "cert2_name": "Lizenz für Brandschutzanlagen-Montage",
-    "cert2_issuer": "Ministerium für Notsituationen der Republik Kasachstan",
-    "cert2_year": "Gültig seit 2013",
-    "cert3_name": "Lizenz für Wasserversorgungs- und Abwassersysteme",
-    "cert3_issuer": "Ausschuss für Bau- und Wohnungswesen der RK",
-    "cert3_year": "Gültig seit 2012",
-    "cert4_name": "Lizenz für Elektroinstallationsarbeiten",
-    "cert4_issuer": "Energieministerium der Republik Kasachstan",
-    "cert4_year": "Gültig seit 2014",
-    "cert5_name": "ISO 9001 Qualitätsmanagementsystem-Zertifikat",
-    "cert5_issuer": "Internationale Organisation für Normung",
-    "cert5_year": "Ausgestellt 2018",
-    "cert6_name": "SRO-Zulassung für Ingenieursystemplanung",
-    "cert6_issuer": "Selbstregulierungsorganisation der Bauherren RK",
-    "cert6_year": "Gültig seit 2015"
   },
   "process": {
     "title": "Arbeitsprozess",

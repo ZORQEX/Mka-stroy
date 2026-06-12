@@ -66,73 +66,31 @@
     "viewAll": "Tüm Hizmetler",
     "water-supply": {
       "title": "Su temini",
-      "description": "Su temini",
-      "features": [
-        "Soğuk su temini",
-        "Sıcak su temini",
-        "Pompa istasyonları",
-        "Su arıtma"
-      ]
+      "description": "Su temini"
     },
     "sewage": {
       "title": "Kanalizasyon sistemleri",
-      "description": "Kanalizasyon sistemleri",
-      "features": [
-        "İç kanalizasyon",
-        "Dış kanalizasyon",
-        "Yağmur suyu drenajı",
-        "Arıtma tesisleri"
-      ]
+      "description": "Kanalizasyon sistemleri"
     },
     "hvac": {
       "title": "İklimlendirme ve havalandırma sistemleri",
-      "description": "İklimlendirme ve havalandırma sistemleri",
-      "features": [
-        "Taze hava",
-        "Egzoz havalandırma",
-        "Klima",
-        "İklim kontrolü"
-      ]
+      "description": "İklimlendirme ve havalandırma sistemleri"
     },
     "fire-protection": {
       "title": "Otomatik yangın söndürme sistemleri",
-      "description": "Otomatik yangın söndürme sistemleri",
-      "features": [
-        "Sprinkler sistemleri",
-        "Deluge sistemleri",
-        "Gazlı söndürme",
-        "Yangın alarmı"
-      ]
+      "description": "Otomatik yangın söndürme sistemleri"
     },
     "heating": {
       "title": "Isıtma sistemi kurulumu",
-      "description": "Isıtma sistemi kurulumu",
-      "features": [
-        "Radyatör ısıtma",
-        "Yerden ısıtma",
-        "Isı merkezleri",
-        "Kazan daireleri"
-      ]
+      "description": "Isıtma sistemi kurulumu"
     },
     "electrical": {
       "title": "Elektrik sistemi kurulumu",
-      "description": "Elektrik sistemi kurulumu",
-      "features": [
-        "Güç şebekeleri",
-        "Aydınlatma",
-        "Zayıf akım sistemleri",
-        "Topraklama"
-      ]
+      "description": "Elektrik sistemi kurulumu"
     },
     "boiler": {
       "title": "Kazan dairesi inşaatı",
-      "description": "Kazan dairesi inşaatı",
-      "features": [
-        "Gaz kazanları",
-        "Elektrikli kazanlar",
-        "Modüler kazan daireleri",
-        "Yenileme"
-      ]
+      "description": "Kazan dairesi inşaatı"
     },
     "drawer": {
       "title": "Çözümlerimiz",
@@ -191,36 +149,6 @@
       "photos": "fotoğraf"
     },
     "viewAllProjects": "Tüm projeleri görüntüle"
-  },
-  "certificates": {
-    "title": "Sertifikalar ve Lisanslar",
-    "subtitle": "MKA STROY LLC, Kazakistan ve BDT’de mühendislik ve inşaat işleri için gerekli tüm lisans ve izinlere sahiptir",
-    "recommendation": "Referans Mektubu",
-    "certificate": "Sertifika",
-    "note": "Tüm belgelerin asılları, sözleşme imzalanırken talep üzerine sağlanır. Kopyalar için: info@mkastroy.com",
-    "cert_badge": "Geçerli",
-    "view_detail": "Detayları görüntüle",
-    "issuer_label": "Veren kurum",
-    "year_label": "Veriliş tarihi",
-    "contact_for_cert": "Asıl belge, sözleşme imzalanırken talep üzerine sağlanır",
-    "cert1_name": "İnşaat ve Montaj İşleri Lisansı",
-    "cert1_issuer": "Kazakistan Cumhuriyeti İnşaat ve Konut İşleri Komitesi",
-    "cert1_year": "2012’den beri geçerli",
-    "cert2_name": "Yangın Söndürme Sistemleri Montaj Lisansı",
-    "cert2_issuer": "Kazakistan Cumhuriyeti Acil Durumlar Bakanlığı",
-    "cert2_year": "2013’ten beri geçerli",
-    "cert3_name": "Su Temini ve Kanalizasyon Sistemleri Lisansı",
-    "cert3_issuer": "Kazakistan Cumhuriyeti İnşaat ve Konut İşleri Komitesi",
-    "cert3_year": "2012’den beri geçerli",
-    "cert4_name": "Elektrik Tesisatı Lisansı",
-    "cert4_issuer": "Kazakistan Cumhuriyeti Enerji Bakanlığı",
-    "cert4_year": "2014’ten beri geçerli",
-    "cert5_name": "ISO 9001 Kalite Yönetim Sertifikası",
-    "cert5_issuer": "Uluslararası Standardizasyon Örgütü",
-    "cert5_year": "2018’de verildi",
-    "cert6_name": "Mühendislik Sistemleri Tasarım İzni",
-    "cert6_issuer": "Kazakistan Cumhuriyeti İnşaatçılar SRO",
-    "cert6_year": "2015’ten beri geçerli"
   },
   "process": {
     "title": "Çalışma Süreci",

@@ -657,44 +657,12 @@ export const companyData: CompanyData = {
     },
   ],
 
-  certificates: [
-    { id: 'cert-1', company: 'TORO Construction', image: '/certificates/toro-construction.jpg', year: 2016, type: 'recommendation' },
-    { id: 'cert-2', company: 'Real Estate & Construction Group', image: '/certificates/real-estate.jpg', year: 2016, type: 'recommendation' },
-    { id: 'cert-3', company: 'TS Development Shymkent', image: '/certificates/ts-development.jpg', year: 2016, type: 'recommendation' },
-    { id: 'cert-4', company: 'TAV Construction', image: '/certificates/tav-construction.jpg', year: 2024, type: 'recommendation' },
-    { id: 'cert-5', company: 'POLPAN Insulation KZ', image: '/certificates/polpan.jpg', year: 2016, type: 'recommendation' },
-    { id: 'cert-6', company: 'TS Стройсервис', image: '/certificates/ts-stroyservice.jpg', year: 2016, type: 'recommendation' },
-  ],
-
   process: [
     { id: 'step-1', number: 1, title: 'Заявка', description: 'Свяжитесь с нами для обсуждения проекта' },
     { id: 'step-2', number: 2, title: 'Анализ', description: 'Изучаем техническое задание и объект' },
     { id: 'step-3', number: 3, title: 'Проект', description: 'Разрабатываем проектную документацию' },
     { id: 'step-4', number: 4, title: 'Реализация', description: 'Выполняем монтажные работы' },
     { id: 'step-5', number: 5, title: 'Сдача', description: 'Передаём объект с документацией и гарантией' },
-  ],
-
-  faq: [
-    {
-      id: 'faq-1',
-      question: 'В каких регионах вы работаете?',
-      answer: 'Выполняем проекты по всему Казахстану и странам СНГ: Узбекистан, Таджикистан, Кыргызстан.',
-    },
-    {
-      id: 'faq-2',
-      question: 'С какими объектами вы работаете?',
-      answer: 'Специализируемся на промышленных объектах, аэропортах, торговых центрах, жилых комплексах.',
-    },
-    {
-      id: 'faq-3',
-      question: 'Какие гарантии вы предоставляете?',
-      answer: 'Гарантия на все виды работ согласно договору. Гарантийное и постгарантийное обслуживание.',
-    },
-    {
-      id: 'faq-4',
-      question: 'Как происходит оплата?',
-      answer: 'Работаем по договору с поэтапной оплатой. Аванс, промежуточные платежи и расчёт после сдачи.',
-    },
   ],
 
   contacts: {
@@ -713,11 +681,6 @@ export const companyData: CompanyData = {
     },
   },
 
-  seo: {
-    title: 'MKA STROY — Инженерно-строительная компания | Казахстан',
-    description: 'MKA STROY — проектирование и монтаж инженерных систем для промышленных объектов, аэропортов, жилых комплексов. Казахстан и СНГ.',
-    keywords: ['инженерные системы', 'водоснабжение', 'вентиляция', 'строительство', 'MKA STROY', 'Алматы'],
-  },
 };
 
 /** Flat list of all projects, used by the Projects section. */
