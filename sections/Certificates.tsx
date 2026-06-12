@@ -110,6 +110,12 @@ export function Certificates({ dict, locale }: { dict: Dictionary; locale: Local
             </motion.div>
           ))}
         </motion.div>
+
+        {(dict.certificates as any)?.note && (
+          <p className="mt-8 text-sm text-text-muted text-center max-w-2xl mx-auto">
+            {(dict.certificates as any).note}
+          </p>
+        )}
       </div>
 
       <AnimatePresence>

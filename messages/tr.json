@@ -193,10 +193,11 @@
     "viewAllProjects": "Tüm projeleri görüntüle"
   },
   "certificates": {
-    "title": "Referanslar",
-    "subtitle": "Ortaklarımızdan geri bildirimler ve referans mektupları",
+    "title": "Sertifikalar ve Lisanslar",
+    "subtitle": "MKA STROY LLC, Kazakistan’da mühendislik ve inşaat işleri için gerekli tüm lisans ve izinlere sahiptir",
     "recommendation": "Referans Mektubu",
-    "certificate": "Sertifika"
+    "certificate": "Sertifika",
+    "note": "Orijinal belgeler, sözleşme imzalanırken talep üzerine sağlanır"
   },
   "process": {
     "title": "Çalışma Süreci",
@@ -291,6 +292,11 @@
       "successTitle": "Başvuru gönderildi",
       "successText": "Kısa süre içinde sizinle iletişime geçeceğiz.",
       "sendAnother": "Bir tane daha gönder"
+    },
+    "addressFull": "Kazakistan Cumhuriyeti, Almatı, Almalı bölgesi, Jibek Joly Cad. 135, Jibek Joly İş Merkezi, Blok 1, 10. kat",
+    "hours": {
+      "weekdays": "Pzt–Cmt: 8:30–18:00",
+      "weekend": "Paz — kapalı"
     }
   },
   "footer": {

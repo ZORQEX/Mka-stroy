@@ -193,10 +193,11 @@
     "viewAllProjects": "Alle Projekte ansehen"
   },
   "certificates": {
-    "title": "Referenzen",
-    "subtitle": "Feedback und Empfehlungsschreiben von unseren Partnern",
+    "title": "Zertifikate & Lizenzen",
+    "subtitle": "MKA STROY GmbH verfügt über alle erforderlichen Lizenzen und Genehmigungen für Ingenieur- und Bauarbeiten in Kasachstan",
     "recommendation": "Empfehlungsschreiben",
-    "certificate": "Zertifikat"
+    "certificate": "Zertifikat",
+    "note": "Originaldokumente werden auf Anfrage beim Vertragsabschluss bereitgestellt"
   },
   "process": {
     "title": "Arbeitsprozess",
@@ -291,6 +292,11 @@
       "successTitle": "Anfrage gesendet",
       "successText": "Wir melden uns in Kürze.",
       "sendAnother": "Weitere senden"
+    },
+    "addressFull": "Republik Kasachstan, Almaty, Bezirk Almaly, Zhibek-Zholy-Str. 135, Geschäftszentrum «Zhibek Zholy», Block 1, 10. Etage",
+    "hours": {
+      "weekdays": "Mo–Sa: 8:30–18:00",
+      "weekend": "So — geschlossen"
     }
   },
   "footer": {

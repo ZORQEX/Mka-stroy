@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation"
 import Link from "next/link"
 import { PROJECTS } from "@/constants/company"
 import { translateWork } from "@/constants/worksI18n"
+import { translateTitle, translateCity } from "@/constants/projectI18n"
 
 const CATEGORIES = ["Все","аэропорт","производство","жилой","торговый","офисный","ритейл","спорт","общепит","развлечения"]
 const LOCALES = ["ru","en","kk","de","ky","tr"]
@@ -77,7 +78,7 @@ export default function Projects({ preview = false, dict }: ProjectsProps) {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={project.images[0]}
-                  alt={project.title}
+                  alt={translateTitle(project.title, locale)}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
@@ -93,9 +94,9 @@ export default function Projects({ preview = false, dict }: ProjectsProps) {
               </div>
               <div className="p-4">
                 <h3 className="font-semibold text-text text-base leading-tight mb-1 line-clamp-2">
-                  {project.title}
+                  {translateTitle(project.title, locale)}
                 </h3>
-                <p className="text-text-muted text-sm mb-2">{project.city}</p>
+                <p className="text-text-muted text-sm mb-2">{translateCity(project.city, locale)}</p>
                 <div className="flex items-center justify-between text-xs text-text-muted">
                   <span>{project.date}</span>
                   {project.area && <span className="font-medium">{project.area}</span>}
@@ -167,7 +168,7 @@ export default function Projects({ preview = false, dict }: ProjectsProps) {
               <span className="inline-block bg-accent/10 text-accent text-xs px-3 py-1 rounded-full capitalize mb-3">
                 {catLabel(modal.category)}
               </span>
-              <h3 className="text-xl font-bold text-text mb-4">{modal.title}</h3>
+              <h3 className="text-xl font-bold text-text mb-4">{translateTitle(modal.title, locale)}</h3>
               <div className="grid grid-cols-2 gap-3 mb-5 text-sm">
                 {modal.client && (
                   <div><p className="text-text-muted text-xs mb-0.5">{tpModal.client ?? "Клиент"}</p><p className="font-medium text-text">{modal.client}</p></div>
@@ -176,7 +177,7 @@ export default function Projects({ preview = false, dict }: ProjectsProps) {
                 {modal.area && (
                   <div><p className="text-text-muted text-xs mb-0.5">{tpModal.area ?? "Площадь"}</p><p className="font-medium text-text">{modal.area}</p></div>
                 )}
-                <div><p className="text-text-muted text-xs mb-0.5">{tpModal.city ?? "Город"}</p><p className="font-medium text-text">{modal.city}</p></div>
+                <div><p className="text-text-muted text-xs mb-0.5">{tpModal.city ?? "Город"}</p><p className="font-medium text-text">{translateCity(modal.city, locale)}</p></div>
               </div>
               <div>
                 <p className="text-xs text-text-muted mb-2">{tpModal.works ?? "Выполненные работы"}:</p>

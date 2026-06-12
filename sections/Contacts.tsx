@@ -54,8 +54,8 @@ export function Contacts({ locale, dict }: { locale: Locale; dict: Dictionary })
               <div>
                 <p className="text-sm opacity-60 mb-2">{dict.contacts.address.label}</p>
                 <p className="text-lg">
-                  РК, г. {contacts.address.city}, {contacts.address.district}, {contacts.address.street},<br />
-                  {contacts.address.building}
+                  {(dict.contacts as any).addressFull ??
+                    `РК, г. ${contacts.address.city}, ${contacts.address.district}, ${contacts.address.street}, ${contacts.address.building}`}
                 </p>
               </div>
 
@@ -76,8 +76,8 @@ export function Contacts({ locale, dict }: { locale: Locale; dict: Dictionary })
 
               <div>
                 <p className="text-sm opacity-60 mb-2">{dict.contacts.schedule.label}</p>
-                <p className="text-lg">{contacts.workingHours.weekdays}</p>
-                <p className="opacity-70">{contacts.workingHours.weekend}</p>
+                <p className="text-lg">{(dict.contacts as any).hours?.weekdays ?? contacts.workingHours.weekdays}</p>
+                <p className="opacity-70">{(dict.contacts as any).hours?.weekend ?? contacts.workingHours.weekend}</p>
               </div>
             </motion.div>
           </div>

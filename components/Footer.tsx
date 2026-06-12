@@ -78,10 +78,8 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             <div className="flex items-start gap-2 text-sm">
               <Clock size={16} className="mt-1 flex-shrink-0 text-accent" />
               <div>
-                <p>{contacts.workingHours.weekdays}</p>
-                {contacts.workingHours.weekend && (
-                  <p className="opacity-60">{contacts.workingHours.weekend}</p>
-                )}
+                <p>{(dict.contacts as any).hours?.weekdays ?? contacts.workingHours.weekdays}</p>
+                <p className="opacity-60">{(dict.contacts as any).hours?.weekend ?? contacts.workingHours.weekend}</p>
               </div>
             </div>
           </div>

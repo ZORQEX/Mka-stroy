@@ -193,10 +193,11 @@
     "viewAllProjects": "View all projects"
   },
   "certificates": {
-    "title": "References",
-    "subtitle": "Feedback and recommendation letters from our partners",
+    "title": "Certificates & Licenses",
+    "subtitle": "MKA STROY LLC holds all necessary licenses and permits for engineering and construction work in Kazakhstan",
     "recommendation": "Letter of Recommendation",
-    "certificate": "Certificate"
+    "certificate": "Certificate",
+    "note": "Original documents are provided upon request when signing a contract"
   },
   "process": {
     "title": "Work Process",
@@ -291,6 +292,11 @@
       "successTitle": "Request sent",
       "successText": "We will contact you shortly.",
       "sendAnother": "Send another"
+    },
+    "addressFull": "Republic of Kazakhstan, Almaty, Almaly district, Zhibek Zholy St. 135, Zhibek Zholy Business Center, Block 1, 10th floor",
+    "hours": {
+      "weekdays": "Mon–Sat: 8:30–18:00",
+      "weekend": "Sun — closed"
     }
   },
   "footer": {
