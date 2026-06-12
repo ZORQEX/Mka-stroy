@@ -4,7 +4,6 @@ import type { Locale } from '@/i18n.config'
 import type { Dictionary } from '@/lib/i18n'
 import { Hero } from '@/sections/Hero'
 import { Services } from '@/sections/Services'
-import { Partners } from '@/sections/Partners'
 import Projects from '@/sections/Projects'
 import { Clients } from '@/sections/Clients'
 import { Process } from '@/sections/Process'
@@ -22,7 +21,6 @@ export function HomeClient({ locale, dict }: HomeClientProps) {
     <>
       <Hero dict={dict} locale={locale} />
       <Services dict={dict} locale={locale} />
-      <Partners dict={dict} locale={locale} />
       <Projects preview dict={dict} />
       <Clients dict={dict} locale={locale} />
       <Process dict={dict} locale={locale} />
