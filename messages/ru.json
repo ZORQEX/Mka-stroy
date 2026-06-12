@@ -339,5 +339,11 @@
     "partner5_project": "Жилой комплекс NEF UPTOWN — котельная и трубопровод отопления 43 000 м²",
     "partner6_project": "ТРЦ Shymkent Plaza — инженерные системы площадью 48 000 м²",
     "partner7_project": "MEGA CENTER ALMA-ATA и MEGA CENTER PLUS — комплекс работ под ключ"
+  },
+  "letters": {
+    "title": "Наши сертификаты",
+    "hint": "Кликните по фото для увеличения",
+    "zoom": "Увеличить",
+    "close": "Закрыть"
   }
 }

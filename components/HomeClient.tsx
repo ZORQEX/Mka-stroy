@@ -9,7 +9,7 @@ import Projects from '@/sections/Projects'
 import { Clients } from '@/sections/Clients'
 import { Process } from '@/sections/Process'
 import { FAQ } from '@/sections/FAQ'
-import { Certificates } from '@/sections/Certificates'
+import { RecommendationLetters } from '@/sections/RecommendationLetters'
 import { Contacts } from '@/sections/Contacts'
 
 interface HomeClientProps {
@@ -27,7 +27,7 @@ export function HomeClient({ locale, dict }: HomeClientProps) {
       <Clients dict={dict} locale={locale} />
       <Process dict={dict} locale={locale} />
       <FAQ dict={dict} locale={locale} />
-      <Certificates dict={dict} locale={locale} />
+      <RecommendationLetters dict={dict} locale={locale} />
       <Contacts dict={dict} locale={locale} />
     </>
   )

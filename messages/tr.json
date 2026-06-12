@@ -381,5 +381,11 @@
     "partner5_project": "NEF UPTOWN konut kompleksi — kazan dairesi ve ısıtma boru hatları, 43.000 m²",
     "partner6_project": "Shymkent Plaza AVM — mühendislik sistemleri, 48.000 m²",
     "partner7_project": "MEGA CENTER ALMA-ATA ve MEGA CENTER PLUS — anahtar teslim işler"
+  },
+  "letters": {
+    "title": "Sertifikalarımız",
+    "hint": "Büyütmek için fotoğrafa tıklayın",
+    "zoom": "Büyüt",
+    "close": "Kapat"
   }
 }

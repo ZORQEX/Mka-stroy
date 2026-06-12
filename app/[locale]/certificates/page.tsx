@@ -1,6 +1,6 @@
 import { type Locale } from '@/i18n.config'
 import { getDictionary } from '@/lib/i18n'
-import { Certificates } from '@/sections/Certificates'
+import { RecommendationLetters } from '@/sections/RecommendationLetters'
 import { Contacts } from '@/sections/Contacts'
 import type { Metadata } from 'next'
 
@@ -26,7 +26,7 @@ export default async function CertificatesPage({
   return (
     <>
       <div className="pt-20">
-        <Certificates dict={dict} locale={params.locale} />
+        <RecommendationLetters dict={dict} locale={params.locale} />
       </div>
       <Contacts dict={dict} locale={params.locale} />
     </>

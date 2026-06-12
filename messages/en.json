@@ -381,5 +381,11 @@
     "partner5_project": "NEF UPTOWN residential complex — boiler room and heating pipelines, 43,000 m²",
     "partner6_project": "Shymkent Plaza mall — engineering systems, 48,000 m²",
     "partner7_project": "MEGA CENTER ALMA-ATA and MEGA CENTER PLUS — full turnkey works"
+  },
+  "letters": {
+    "title": "Our Certificates",
+    "hint": "Click on photo to enlarge",
+    "zoom": "Zoom in",
+    "close": "Close"
   }
 }

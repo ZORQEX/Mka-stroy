@@ -381,5 +381,11 @@
     "partner5_project": "NEF UPTOWN Wohnkomplex — Heizraum und Heizungsrohre, 43.000 m²",
     "partner6_project": "Shymkent Plaza Mall — Haustechnik, 48.000 m²",
     "partner7_project": "MEGA CENTER ALMA-ATA und MEGA CENTER PLUS — schlüsselfertige Arbeiten"
+  },
+  "letters": {
+    "title": "Unsere Zertifikate",
+    "hint": "Klicken Sie auf das Foto zum Vergrößern",
+    "zoom": "Vergrößern",
+    "close": "Schließen"
   }
 }

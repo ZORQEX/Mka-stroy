@@ -381,5 +381,11 @@
     "partner5_project": "NEF UPTOWN тұрғын үй кешені — қазандық және жылыту 43 000 м²",
     "partner6_project": "Shymkent Plaza ТСО — инженерлік жүйелер, 48 000 м²",
     "partner7_project": "MEGA CENTER ALMA-ATA және MEGA CENTER PLUS — кілтке дейін жұмыстар"
+  },
+  "letters": {
+    "title": "Біздің сертификаттар",
+    "hint": "Үлкейту үшін фотоға басыңыз",
+    "zoom": "Үлкейту",
+    "close": "Жабу"
   }
 }
