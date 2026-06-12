@@ -5,7 +5,8 @@
     "services": "Services",
     "projects": "Projects",
     "certificates": "Certificates",
-    "contacts": "Contacts"
+    "contacts": "Contacts",
+    "partners": "Partners"
   },
   "hero": {
     "badge": "Engineering & Construction Company",
@@ -367,5 +368,18 @@
   "clients": {
     "title": "Trusted by",
     "subtitle": "We have delivered engineering systems for leading international companies and facilities"
+  },
+  "partners": {
+    "title": "Clients & Partners",
+    "subtitle": "Our clients include major international corporations, retail chains and construction holdings across Kazakhstan and CIS",
+    "trust_label": "Trusted by",
+    "trust_suffix": "companies",
+    "partner1_project": "MEGA CENTER PLUS shopping center — turnkey engineering systems installation",
+    "partner2_project": "FC Kairat Sports Base — HVAC and water supply systems",
+    "partner3_project": "POLPAN insulation factory — process pipelines and boiler room",
+    "partner4_project": "Almaty International Airport — HVAC, water supply, fire suppression, 53,000 m²",
+    "partner5_project": "NEF UPTOWN residential complex — boiler room and heating pipelines, 43,000 m²",
+    "partner6_project": "Shymkent Plaza mall — engineering systems, 48,000 m²",
+    "partner7_project": "MEGA CENTER ALMA-ATA and MEGA CENTER PLUS — full turnkey works"
   }
 }

@@ -5,7 +5,8 @@
     "services": "Hizmetler",
     "projects": "Projeler",
     "certificates": "Sertifikalar",
-    "contacts": "İletişim"
+    "contacts": "İletişim",
+    "partners": "Ortaklar"
   },
   "hero": {
     "badge": "Mühendislik ve İnşaat Şirketi",
@@ -367,5 +368,18 @@
   "clients": {
     "title": "Bize güveniyorlar",
     "subtitle": "Önde gelen uluslararası şirketler ve tesisler için mühendislik sistemleri kurduk"
+  },
+  "partners": {
+    "title": "Müşteriler ve Ortaklar",
+    "subtitle": "Müşterilerimiz arasında Kazakistan ve BDT’nin büyük uluslararası şirketleri, perakende zincirleri ve inşaat holdingleri yer almaktadır",
+    "trust_label": "Bize güvenen",
+    "trust_suffix": "şirket",
+    "partner1_project": "MEGA CENTER PLUS AVM — anahtar teslim mühendislik sistemleri kurulumu",
+    "partner2_project": "FK Kayrat Spor Tesisi — iklimlendirme ve su temini sistemleri",
+    "partner3_project": "POLPAN fabrikası — proses boru hatları ve kazan dairesi",
+    "partner4_project": "Almatı Uluslararası Havalimanı — HVAC, su temini, yangın söndürme, 53.000 m²",
+    "partner5_project": "NEF UPTOWN konut kompleksi — kazan dairesi ve ısıtma boru hatları, 43.000 m²",
+    "partner6_project": "Shymkent Plaza AVM — mühendislik sistemleri, 48.000 m²",
+    "partner7_project": "MEGA CENTER ALMA-ATA ve MEGA CENTER PLUS — anahtar teslim işler"
   }
 }

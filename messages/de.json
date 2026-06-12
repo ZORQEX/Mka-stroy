@@ -5,7 +5,8 @@
     "services": "Dienstleistungen",
     "projects": "Projekte",
     "certificates": "Zertifikate",
-    "contacts": "Kontakt"
+    "contacts": "Kontakt",
+    "partners": "Partner"
   },
   "hero": {
     "badge": "Ingenieur- und Bauunternehmen",
@@ -367,5 +368,18 @@
   "clients": {
     "title": "Sie vertrauen uns",
     "subtitle": "Wir haben Ingenieursysteme für führende internationale Unternehmen und Anlagen realisiert"
+  },
+  "partners": {
+    "title": "Kunden & Partner",
+    "subtitle": "Zu unseren Auftraggebern zählen große internationale Konzerne, Einzelhandelsketten und Bau-Holdings in Kasachstan und der GUS",
+    "trust_label": "Vertrauen uns",
+    "trust_suffix": "Unternehmen",
+    "partner1_project": "MEGA CENTER PLUS Einkaufszentrum — schlüsselfertige Haustechnik",
+    "partner2_project": "FK Kairat Sportbasis — Klima- und Wasserversorgungssysteme",
+    "partner3_project": "POLPAN Fabrik — Prozessleitungen und Heizraumanlage",
+    "partner4_project": "Internationaler Flughafen Almaty — HVAC, Wasserversorgung, Brandschutz, 53.000 m²",
+    "partner5_project": "NEF UPTOWN Wohnkomplex — Heizraum und Heizungsrohre, 43.000 m²",
+    "partner6_project": "Shymkent Plaza Mall — Haustechnik, 48.000 m²",
+    "partner7_project": "MEGA CENTER ALMA-ATA und MEGA CENTER PLUS — schlüsselfertige Arbeiten"
   }
 }
