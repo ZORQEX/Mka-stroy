@@ -25,17 +25,9 @@ export default async function CertificatesPage({
 
   return (
     <>
-      <section className="section bg-bg pt-32">
-        <div className="container">
-          <div className="text-center mb-16">
-            <h1 className="mb-4">{dict.certificates?.title || 'Сертификаты и рекомендации'}</h1>
-            <p className="text-lg opacity-70 max-w-2xl mx-auto">
-              {dict.certificates?.subtitle || 'Благодарственные письма и рекомендации от наших партнёров'}
-            </p>
-          </div>
-        </div>
-      </section>
-      <Certificates dict={dict} locale={params.locale} />
+      <div className="pt-20">
+        <Certificates dict={dict} locale={params.locale} />
+      </div>
       <Contacts dict={dict} locale={params.locale} />
     </>
   )
